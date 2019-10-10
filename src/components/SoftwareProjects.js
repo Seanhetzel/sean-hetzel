@@ -1,82 +1,119 @@
 import React, { Component } from "react";
 import palm from "../images/2987897_0.jpg";
+import cloneterestImage from "../images/cloneterest-screenshot.JPG";
+import adventureArchiveImage from "../images/adventure-archinve-screenshot.PNG";
+import starRunnerImage from "../images/star-runner-screenshot.PNG";
+import sunsetInvestingImage from "../images/sunset-investing-screenshot.PNG";
 
 export default class SoftwareProjects extends Component {
     render() {
         return (
             <>
                 <div className="row">
-                    <div className="card" style={{ width: "40%" }}>
+                    <div className="card">
                         <img
                             className="card-img-top"
-                            src={palm}
+                            src={cloneterestImage}
                             alt="Card image cap"
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <h5 className="card-title">Cloneterest</h5>
                             <p className="card-text">
                                 Quick sample text to create the card title and
                                 make up the body of the card's content.
                             </p>
-                            <a href="#" className="btn btn-outline-primary">
-                                Check It Out
-                            </a>
-                            <a href="#" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
-                                GitHub
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="card" style={{ width: "40%" }}>
-                        <img
-                            className="card-img-top"
-                            src={palm}
-                            alt="Card image cap"
-                        />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">
-                                Quick sample text to create the card title and
-                                make up the body of the card's content.
+                            <p className="card-text grey-text">
+                                Rails, JavaScript, Fetch
                             </p>
-                            <a href="#" className="btn btn-outline-primary">
-                                Go somewhere
+                            <a href="https://seanhetzel.github.io/cloneterest/" target="_blank" className="btn btn-outline-primary">
+                                Check it out
+                            </a>
+                            <a href="https://github.com/Seanhetzel/cloneterest" target="_blank" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
+                                Frontend GitHub
+                            </a>
+                            <a href="https://github.com/Seanhetzel/cloneterest_backend" target="_blank" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
+                                Backend GitHub
                             </a>
                         </div>
                     </div>
 
-                    <div className="card" style={{ width: "40%" }}>
+                    <div className="card">
                         <img
                             className="card-img-top"
-                            src={palm}
+                            src={adventureArchiveImage}
                             alt="Card image cap"
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <h5 className="card-title">Adventure Archive</h5>
                             <p className="card-text">
                                 Quick sample text to create the card title and
                                 make up the body of the card's content.
                             </p>
-                            <a href="#" className="btn btn-outline-primary">
-                                Go somewhere
+                            <p className="card-text grey-text">
+                                Rails, JavaScript, Fetch
+                            </p>
+                            <a href="https://seanhetzel.github.io/adventure_archive_frontend/index.html" target="_blank" className="btn btn-outline-primary">
+                                Check it out
+                            </a>
+                            <a href="https://github.com/Seanhetzel/adventure_archive_frontend" target="_blank" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
+                                Frontend GitHub
+                            </a>
+                            <a href="https://github.com/Seanhetzel/adventure_archive_backend" target="_blank" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
+                                Backend GitHub
                             </a>
                         </div>
                     </div>
 
-                    <div className="card" style={{ width: "40%" }}>
+                    <div className="card">
                         <img
                             className="card-img-top"
-                            src={palm}
+                            src={starRunnerImage}
                             alt="Card image cap"
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <h5 className="card-title">Star Runner</h5>
                             <p className="card-text">
                                 Quick sample text to create the card title and
                                 make up the body of the card's content.
                             </p>
-                            <a href="#" className="btn btn-outline-primary">
-                                Go somewhere
+                            <p className="card-text grey-text">
+                                React, Phaser Game Engine, Ion Phaser Wrapper, Rails 
+                            </p>
+                            <a href="#" target="_blank" className="btn btn-outline-primary">
+                                Offline
+                            </a>
+                            <a href="https://github.com/Seanhetzel/star-runner" target="_blank" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
+                                Frontend GitHub
+                            </a>
+                            <a href="https://github.com/Seanhetzel/star-runner-backend" target="_blank" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
+                                Backend GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="card">
+                        <img
+                            className="card-img-top"
+                            src={sunsetInvestingImage}
+                            alt="Card image cap"
+                        />
+                        <div className="card-body">
+                            <h5 className="card-title">Sunset Investing</h5>
+                            <p className="card-text">
+                                Quick sample text to create the card title and
+                                make up the body of the card's content.
+                            </p>
+                            <p className="card-text grey-text">
+                                React, Bootstrap, Rails
+                            </p>
+                            <a href="#" target="_blank" className="btn btn-outline-primary">
+                                Offline
+                            </a>
+                            <a href="https://github.com/Seanhetzel/sunset-investing" target="_blank" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
+                                Frontend GitHub
+                            </a>
+                            <a href="https://github.com/Seanhetzel/sunset-investing-backend" target="_blank" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
+                                Backend GitHub
                             </a>
                         </div>
                     </div>

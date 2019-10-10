@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   color: white;
   margin: 2em;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -18,13 +18,15 @@ a {
 
 .title {
   letter-spacing: .5em;
-  color: white
+  color: white;
+  text-align: center;
 }
 
 .card{
-  background-color: black;
-  border-color: #00ffea;
+  background-color: #202020;
+  border-color: black;
   margin: .5em;
+  width: 48%;
 }
 
 .btn-outline-primary{
@@ -33,11 +35,29 @@ a {
 }
 
 .btn-outline-primary:hover{
-  color: black;
+  color: #202020;
   background-color: #00ffea;
   border-color: #00ffea;
 }
 
 .card-title{
   color: #00ffea;
+  letter-spacing: .25em;
+}
+
+.grey-text {
+  color: #a1a1a1;
+}
+
+.lets-build {
+  font-family: sans-serif;
+  font-size: 5rem;
+  font-weight: 1000;
+  text-align: center;
+  color: white;
+  background: url(./images/water-4.gif) no-repeat;
+  background-size: 40rem;
+  background-position: bottom;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
