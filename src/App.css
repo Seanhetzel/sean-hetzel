@@ -1,7 +1,8 @@
 /* .header{
   
 } */
-
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('http://tenbytwenty.com#nevis');
 body {
   background-color: black;
   min-height: 100vh;
@@ -50,14 +51,15 @@ a {
 }
 
 .lets-build {
-  font-family: sans-serif;
-  font-size: 5rem;
-  font-weight: 1000;
+  font-family: 'Open-sans', sans-serif;
+  font-size: 20rem;
+  font-weight: bolder;
   text-align: center;
+  letter-spacing: .1em;
   color: white;
-  background: url(./images/water-4.gif) no-repeat;
-  background-size: 40rem;
-  background-position: bottom;
+  background: url(./images/water-5.gif) no-repeat;
+  background-size: 70rem;
+  background-position: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
