@@ -5,6 +5,11 @@ function LandingPage() {
         <>
             <h1 className="lets-build">LET'S</h1>
             <br></br> <h1 className="lets-build">BUILD</h1>
+            <div className="mouse-scroll">
+                <span className="mouse">
+                    <span className="mouse-movement" />
+                </span>
+            </div>
         </>
     );
 }
