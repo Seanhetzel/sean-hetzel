@@ -1,17 +1,18 @@
 import React from "react";
+import { ScrollToTopOnMount, SectionsContainer, Section } from "react-fullpage";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import Header from "./components/Header";
 import LandingPage from "./components/LandingPage";
 import SoftwareProjects from "./components/SoftwareProjects";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import { ScrollToTopOnMount, SectionsContainer, Section } from "react-fullpage";
+import HardwareProjects from "./components/HardwareProjects";
 import Connect from "./components/Connect";
 
 class App extends React.Component {
     render() {
         let options = {
             activeClass: "active", // the class that is appended to the sections links
-            anchors: ["sectionOne", "sectionTwo", "sectionThree", "sectionFour"], // the anchors for each sections
+            anchors: ["home", "software", "hardware", "contact"], // the anchors for each sections
             arrowNavigation: true, // use arrow keys
             className: "SectionContainer", // the class name for the section container
             delay: 700, // the scroll animation speed
@@ -35,7 +36,7 @@ class App extends React.Component {
                         <SoftwareProjects />
                     </Section>
                     <Section>
-                        <SoftwareProjects />
+                        <HardwareProjects />
                     </Section>
                     <Section>
                         <Connect />

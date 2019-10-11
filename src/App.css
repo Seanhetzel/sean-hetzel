@@ -27,7 +27,7 @@ a {
   background-color: #202020;
   border-color: black;
   margin: .5em;
-  width: 40em;
+  width: 10em;
 }
 
 .btn-outline-primary{
@@ -60,6 +60,7 @@ a {
   background-size: 70rem;
   background-position: center;
   -webkit-background-clip: text;
+  background-clip: '';
   -webkit-text-fill-color: transparent;
 }
 
@@ -70,6 +71,7 @@ a {
   padding-bottom: 1em;
 }
 
+/* Mouse Start */
 @-webkit-keyframes scroll-ani {
   0% {
     opacity: 1;
@@ -174,3 +176,105 @@ a {
 .mouse-scroll:hover .mouse-message {
   margin-top: 0;
 }
+/* Mouse End */
+
+/* Social Media Icons Start */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.ir {
+  display: block;
+  overflow: visible;
+  padding: 0 0 100%;
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+
+.ir > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0 auto;
+  padding: 48px;
+  padding: 4.8rem;
+  text-align: center;
+  width: 110rem;
+  max-width: 100%;
+}
+.soc li {
+  display: inline-block;
+  margin: 12px;
+  margin: 1.2rem;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  position: relative;
+  height: 96px;
+  height: 9.6rem;
+  width: 96px;
+  width: 9.6rem;
+}
+
+.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover, .icon-31:hover, .icon-32:hover {
+  border-radius: 100%;
+  color: black;
+  fill: black;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+.icon-8 {
+  color: #00ffea;
+  fill: #00ffea;
+}
+.icon-8:hover {
+  background: #00ffea;
+}
+
+.icon-13 {
+  color: #00ffea;
+  fill: #00ffea;
+}
+.icon-13:hover {
+  background: #00ffea;
+}
+
+.icon-15 {
+  color: #00ffea;
+  fill: #00ffea;
+}
+.icon-15:hover {
+  background: #00ffea;
+}
+
+.icon-17 {
+  color: #00ffea;
+  fill: #00ffea;
+}
+.icon-17:hover {
+  background: #00ffea;
+}
+
+.icon-28 {
+  color: #00ffea;
+  fill: #00ffea;
+}
+.icon-28:hover {
+  background: #00ffea;
+}
+/* Social Media Icons End */
