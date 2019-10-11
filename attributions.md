@@ -8,9 +8,9 @@
 - Ash Bryant
 - https://codepen.io/ashbryant/pen/JCHar
 
-3. Water gif
-- Pitch Studios
-- https://giphy.com/gifs/art-water-blue-46hpy8xB3MiHfruixn
+3. Space gif
+- Teun van der Zalm
+- https://giphy.com/gifs/space-stars-universe-l3c68JsmKL7zwMamA
 
 4. Social media icons
 - Ruandré Janse van Rensburg

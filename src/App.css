@@ -31,8 +31,11 @@ a {
 .card {
     background-color: #202020;
     border-color: black;
-    margin: 0.5em;
+    /* margin: 0.5em; */
     /* width: 40rem; */
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
 
 .btn-outline-primary {
@@ -70,6 +73,9 @@ a {
     -webkit-text-fill-color: transparent;
     width: 80rem;
     text-align: center;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
 
 .page-title {
@@ -77,6 +83,8 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.5em;
     padding-bottom: 1em;
+    float: right;
+    font-size: 12pt;
 }
 
 /* Mouse Start */
@@ -143,7 +151,7 @@ a {
     color: #fff;
     font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
-    margin-top: 10%;
+    margin-top: 1em;
     text-decoration: none;
     overflow: hidden;
 }

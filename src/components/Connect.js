@@ -4,7 +4,7 @@ function Connect() {
     return (
         <>
             <h1 className="page-title">About Me</h1>
-            <p className="grey-text">I've always loved building things. I'm the creative type. I believe that design and function are equally important. </p>
+            <p className="grey-text">I've always loved building things. I'm the creative type. I'll spend days coming up with a clever solution to automate a boaring task so I never have to do it again. I believe that function and design are equally important. </p>
             <h1 className="page-title">Let's Connect</h1>
 
             <ul className="soc">
