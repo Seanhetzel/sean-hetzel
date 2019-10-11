@@ -4,23 +4,24 @@ function Connect() {
     return (
         <>
             <h1 className="page-title">About Me</h1>
+            <p className="grey-text">I've always loved building things. I'm the creative type. I believe that design and function are equally important. </p>
             <h1 className="page-title">Let's Connect</h1>
 
             <ul className="soc">
-                <li>
-                    <a className="icon-8 email" href="#" title="Email">
+            <li>
+                    <a className="icon-28 youtube" href="https://www.youtube.com/channel/UCnAeHxUezq50j_HcjdJ4LIg" target="_blank" rel="noopener noreferrer" title="YouTube">
                         <div className="ir">
                             <svg
                                 viewBox="0 0 512 512"
                                 preserveAspectRatio="xMidYMid meet"
                             >
-                                <path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z" />
+                                <path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z" />
                             </svg>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <a className="icon-13 github" href="#" title="GitHub">
+                    <a className="icon-13 github" href="https://github.com/Seanhetzel" target="_blank" rel="noopener noreferrer" title="GitHub">
                         <div className="ir">
                             <svg
                                 viewBox="0 0 512 512"
@@ -31,9 +32,8 @@ function Connect() {
                         </div>
                     </a>
                 </li>
-                {/* New icon thanks to Justin Paul Veiga:*/}
                 <li>
-                    <a className="icon-15 instagram" href="#" title="Instagram">
+                    <a className="icon-15 instagram" href="https://www.instagram.com/hetzelsean/" target="_blank" rel="noopener noreferrer" title="Instagram">
                         <div className="ir">
                             <svg
                                 viewBox="0 0 512 512"
@@ -47,7 +47,7 @@ function Connect() {
                     </a>
                 </li>
                 <li>
-                    <a className="icon-17 linkedin" href="#" title="LinkedIn">
+                    <a className="icon-17 linkedin" href="https://www.linkedin.com/in/sean-hetzel-983a94175" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                         <div className="ir">
                             <svg
                                 viewBox="0 0 512 512"
@@ -59,13 +59,13 @@ function Connect() {
                     </a>
                 </li>
                 <li>
-                    <a className="icon-28 youtube" href="#" title="YouTube">
+                    <a className="icon-8 email" href="mailto:seanhetzel1@gmail.com" target="_top" rel="noopener noreferrer" title="Email">
                         <div className="ir">
                             <svg
                                 viewBox="0 0 512 512"
                                 preserveAspectRatio="xMidYMid meet"
                             >
-                                <path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z" />
+                                <path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z" />
                             </svg>
                         </div>
                     </a>

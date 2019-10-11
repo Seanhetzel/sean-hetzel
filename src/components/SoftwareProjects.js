@@ -8,113 +8,184 @@ export default class SoftwareProjects extends Component {
     render() {
         return (
             <>
-            <h1 className="page-title">Software Projects</h1>
-                <div className="row">
-                    <div className="card">
-                        <img
-                            className="card-img-top"
-                            src={cloneterestImage}
-                            alt="Card cap"
-                        />
-                        <div className="card-body">
-                            <h5 className="card-title">Cloneterest</h5>
-                            <p className="card-text">
-                                Quick sample text to create the card title and
-                                make up the body of the card's content.
-                            </p>
-                            <p className="card-text grey-text">
-                                Rails, JavaScript, Fetch
-                            </p>
-                            <a href="https://seanhetzel.github.io/cloneterest/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">
-                                Check it out
-                            </a>
-                            <a href="https://github.com/Seanhetzel/cloneterest" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
-                                Frontend GitHub
-                            </a>
-                            <a href="https://github.com/Seanhetzel/cloneterest_backend" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
-                                Backend GitHub
-                            </a>
+                <h1 className="page-title">Software Projects</h1>
+                <div className="d-flex justify-content-center">
+                    <div className="row">
+                        <div className="card col-lg-5">
+                            <img
+                                className="card-img-top"
+                                src={cloneterestImage}
+                                alt="Card cap"
+                            />
+                            <div className="card-body">
+                                <h5 className="card-title">Cloneterest</h5>
+                                <p className="card-text">
+                                    Clone of Pinterest. Users can add and delete
+                                    pins.
+                                </p>
+                                <p className="card-text grey-text">
+                                    Rails, JavaScript, Fetch
+                                </p>
+                                <a
+                                    href="https://seanhetzel.github.io/cloneterest/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Check it out
+                                </a>
+                                <a
+                                    href="https://github.com/Seanhetzel/cloneterest"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Frontend GitHub
+                                </a>
+                                <a
+                                    href="https://github.com/Seanhetzel/cloneterest_backend"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Backend GitHub
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div className="card">
-                        <img
-                            className="card-img-top"
-                            src={adventureArchiveImage}
-                            alt="Card cap"
-                        />
-                        <div className="card-body">
-                            <h5 className="card-title">Adventure Archive</h5>
-                            <p className="card-text">
-                                Quick sample text to create the card title and
-                                make up the body of the card's content.
-                            </p>
-                            <p className="card-text grey-text">
-                                Rails, JavaScript, Fetch
-                            </p>
-                            <a href="https://seanhetzel.github.io/adventure_archive_frontend/index.html" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">
-                                Check it out
-                            </a>
-                            <a href="https://github.com/Seanhetzel/adventure_archive_frontend" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
-                                Frontend GitHub
-                            </a>
-                            <a href="https://github.com/Seanhetzel/adventure_archive_backend" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
-                                Backend GitHub
-                            </a>
+                        <div className="card col-lg-5">
+                            <img
+                                className="card-img-top"
+                                src={adventureArchiveImage}
+                                alt="Card cap"
+                            />
+                            <div className="card-body">
+                                <h5 className="card-title">
+                                    Adventure Archive
+                                </h5>
+                                <p className="card-text">
+                                    Share interesting archeological sites and
+                                    amazing places. Places resource has full
+                                    CRUD and users can add comments to places.
+                                </p>
+                                <p className="card-text grey-text">
+                                    Rails, JavaScript, Fetch
+                                </p>
+                                <a
+                                    href="https://seanhetzel.github.io/adventure_archive_frontend/index.html"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Check it out
+                                </a>
+                                <a
+                                    href="https://github.com/Seanhetzel/adventure_archive_frontend"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Frontend GitHub
+                                </a>
+                                <a
+                                    href="https://github.com/Seanhetzel/adventure_archive_backend"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Backend GitHub
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div className="card">
-                        <img
-                            className="card-img-top"
-                            src={starRunnerImage}
-                            alt="Card cap"
-                        />
-                        <div className="card-body">
-                            <h5 className="card-title">Star Runner</h5>
-                            <p className="card-text">
-                                Quick sample text to create the card title and
-                                make up the body of the card's content.
-                            </p>
-                            <p className="card-text grey-text">
-                                React, Phaser Game Engine, Ion Phaser Wrapper, Rails 
-                            </p>
-                            <a href="https://seanhetzel.github.io/cloneterest/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">
-                                Offline
-                            </a>
-                            <a href="https://github.com/Seanhetzel/star-runner" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
-                                Frontend GitHub
-                            </a>
-                            <a href="https://github.com/Seanhetzel/star-runner-backend" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
-                                Backend GitHub
-                            </a>
+                        <div className="card col-lg-5">
+                            <img
+                                className="card-img-top"
+                                src={starRunnerImage}
+                                alt="Card cap"
+                            />
+                            <div className="card-body">
+                                <h5 className="card-title">Star Runner</h5>
+                                <p className="card-text">
+                                    Space shooter game built with the Phaser
+                                    game engine. Players fly through an asteroid
+                                    field in a race against time. Do you have
+                                    what it takes?
+                                </p>
+                                <p className="card-text grey-text">
+                                    React, Phaser, Ion Phaser, Rails
+                                </p>
+                                <a
+                                    href="https://seanhetzel.github.io/cloneterest/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Offline
+                                </a>
+                                <a
+                                    href="https://github.com/Seanhetzel/star-runner"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Frontend GitHub
+                                </a>
+                                <a
+                                    href="https://github.com/Seanhetzel/star-runner-backend"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Backend GitHub
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div className="card">
-                        <img
-                            className="card-img-top"
-                            src={sunsetInvestingImage}
-                            alt="Card cap"
-                        />
-                        <div className="card-body">
-                            <h5 className="card-title">Sunset Investing</h5>
-                            <p className="card-text">
-                                Quick sample text to create the card title and
-                                make up the body of the card's content.
-                            </p>
-                            <p className="card-text grey-text">
-                                React, Bootstrap, Rails
-                            </p>
-                            <a href="https://seanhetzel.github.io/cloneterest/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">
-                                Offline
-                            </a>
-                            <a href="https://github.com/Seanhetzel/sunset-investing" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
-                                Frontend GitHub
-                            </a>
-                            <a href="https://github.com/Seanhetzel/sunset-investing-backend" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary" style={{marginLeft: "1em"}}>
-                                Backend GitHub
-                            </a>
+                        <div className="card col-lg-5">
+                            <img
+                                className="card-img-top"
+                                src={sunsetInvestingImage}
+                                alt="Card cap"
+                            />
+                            <div className="card-body">
+                                <h5 className="card-title">Sunset Investing</h5>
+                                <p className="card-text">
+                                    Invest in fractions of a rental properties.
+                                    Like stocks, but for real estate. The
+                                    advantages for buying just a fraction of
+                                    rental properties are increased
+                                    diversification and accessibility. You'll
+                                    get a fraction of the rent and appreciation.
+                                </p>
+                                <p className="card-text grey-text">
+                                    React, Bootstrap, Rails
+                                </p>
+                                <a
+                                    href="https://seanhetzel.github.io/cloneterest/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Offline
+                                </a>
+                                <a
+                                    href="https://github.com/Seanhetzel/sunset-investing"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Frontend GitHub
+                                </a>
+                                <a
+                                    href="https://github.com/Seanhetzel/sunset-investing-backend"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                >
+                                    Backend GitHub
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
