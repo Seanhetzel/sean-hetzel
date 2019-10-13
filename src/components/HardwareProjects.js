@@ -11,7 +11,7 @@ export default class SoftwareProjects extends Component {
                 <h1 className="page-title">Hardware Projects</h1>
                 <div className="d-flex p-2">
                     <div className="row">
-                        <div className="card col-lg-5">
+                        <div className="card col-lg-3">
                             <img
                                 className="card-img-top"
                                 src={cloneterestImage}
@@ -55,7 +55,7 @@ export default class SoftwareProjects extends Component {
                             </div>
                         </div>
 
-                        <div className="card col-lg-5">
+                        <div className="card col-lg-3">
                             <img
                                 className="card-img-top"
                                 src={adventureArchiveImage}
@@ -101,7 +101,7 @@ export default class SoftwareProjects extends Component {
                             </div>
                         </div>
 
-                        <div className="card col-lg-5">
+                        <div className="card col-lg-3">
                             <img
                                 className="card-img-top"
                                 src={starRunnerImage}
@@ -146,7 +146,7 @@ export default class SoftwareProjects extends Component {
                             </div>
                         </div>
 
-                        <div className="card col-lg-5">
+                        <div className="card col-lg-3">
                             <img
                                 className="card-img-top"
                                 src={sunsetInvestingImage}

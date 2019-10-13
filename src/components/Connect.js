@@ -4,12 +4,23 @@ function Connect() {
     return (
         <>
             <h1 className="page-title">About Me</h1>
-            <p className="grey-text">I've always loved building things. I'm the creative type. I'll spend days coming up with a clever solution to automate a boaring task so I never have to do it again. I believe that function and design are equally important. </p>
+            <p className="grey-text">
+                I've always loved building things. I'm the creative type. I'll
+                spend days coming up with a clever solution to automate a
+                boaring task so I never have to do it again. I believe that
+                function and design are equally important.{" "}
+            </p>
             <h1 className="page-title">Let's Connect</h1>
 
             <ul className="soc">
-            <li>
-                    <a className="icon-28 youtube" href="https://www.youtube.com/channel/UCnAeHxUezq50j_HcjdJ4LIg" target="_blank" rel="noopener noreferrer" title="YouTube">
+                <li>
+                    <a
+                        className="icon-28 youtube"
+                        href="https://www.youtube.com/channel/UCnAeHxUezq50j_HcjdJ4LIg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="YouTube"
+                    >
                         <div className="ir">
                             <svg
                                 viewBox="0 0 512 512"
@@ -21,7 +32,13 @@ function Connect() {
                     </a>
                 </li>
                 <li>
-                    <a className="icon-13 github" href="https://github.com/Seanhetzel" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <a
+                        className="icon-13 github"
+                        href="https://github.com/Seanhetzel"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="GitHub"
+                    >
                         <div className="ir">
                             <svg
                                 viewBox="0 0 512 512"
@@ -33,7 +50,13 @@ function Connect() {
                     </a>
                 </li>
                 <li>
-                    <a className="icon-15 instagram" href="https://www.instagram.com/hetzelsean/" target="_blank" rel="noopener noreferrer" title="Instagram">
+                    <a
+                        className="icon-15 instagram"
+                        href="https://www.instagram.com/hetzelsean/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="Instagram"
+                    >
                         <div className="ir">
                             <svg
                                 viewBox="0 0 512 512"
@@ -47,7 +70,13 @@ function Connect() {
                     </a>
                 </li>
                 <li>
-                    <a className="icon-17 linkedin" href="https://www.linkedin.com/in/sean-hetzel-983a94175" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                    <a
+                        className="icon-17 linkedin"
+                        href="https://www.linkedin.com/in/sean-hetzel-983a94175"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="LinkedIn"
+                    >
                         <div className="ir">
                             <svg
                                 viewBox="0 0 512 512"
@@ -59,7 +88,13 @@ function Connect() {
                     </a>
                 </li>
                 <li>
-                    <a className="icon-8 email" href="mailto:seanhetzel1@gmail.com" target="_top" rel="noopener noreferrer" title="Email">
+                    <a
+                        className="icon-8 email"
+                        href="mailto:seanhetzel1@gmail.com"
+                        target="_top"
+                        rel="noopener noreferrer"
+                        title="Email"
+                    >
                         <div className="ir">
                             <svg
                                 viewBox="0 0 512 512"
@@ -71,6 +106,7 @@ function Connect() {
                     </a>
                 </li>
             </ul>
+            <h4 className="page-title">(425) 408-2068</h4>
         </>
     );
 }

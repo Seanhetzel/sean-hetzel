@@ -24,7 +24,7 @@ a {
     color: white;
 }
 
-.col-lg-5 {
+.col-lg-3 {
   padding: 0em;
 }
 
@@ -64,7 +64,7 @@ a {
     font-size: 20rem;
     font-weight: bolder;
     letter-spacing: 0.1em;
-    color: white;
+    color: #00ffea;
     background: url(./images/space-6.gif) no-repeat;
     background-size: 70rem;
     background-position: center;
@@ -83,7 +83,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.5em;
     padding-bottom: 1em;
-    float: right;
+    /* float: right; */
     font-size: 12pt;
 }
 
