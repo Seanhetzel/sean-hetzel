@@ -23,7 +23,6 @@ export default class SoftwareProjects extends Component {
                                 <h5 className="card-title">
                                     Butter Robot from Rick and Morty
                                 </h5>
-                                <p style={{ color: "#00ffea" }}>Just for Fun</p>
                                 <p className="card-text">
                                     After years of being lazy, I finally
                                     finished... MR BUTTERS! (Yes from Rick and
@@ -61,7 +60,6 @@ export default class SoftwareProjects extends Component {
                                 <h5 className="card-title">
                                     Solar Powered Pool Skimmer Robot
                                 </h5>
-                                <p style={{ color: "#00ffea" }}>Just for Fun</p>
                                 <p className="card-text">
                                     This is a solar powered robot pool skimmer.
                                     The hull is comprised of three seperate 3d
@@ -97,9 +95,6 @@ export default class SoftwareProjects extends Component {
                             />
                             <div className="card-body">
                                 <h5 className="card-title">UA Light Box</h5>
-                                <p style={{ color: "#00ffea" }}>
-                                    Fun and Money
-                                </p>
                                 <p className="card-text">
                                     This is a laser cut desk light that I made
                                     for the University of Arizona bookstore. Its
@@ -136,7 +131,6 @@ export default class SoftwareProjects extends Component {
                                 <h5 className="card-title">
                                     Automactic Bedroom Door
                                 </h5>
-                                <p style={{ color: "#00ffea" }}>Just for Fun</p>
                                 <p className="card-text">
                                     Bedroom door that opens when it detects
                                     someone walking towards it then closes and
@@ -163,7 +157,6 @@ export default class SoftwareProjects extends Component {
                                 <h5 className="card-title">
                                     Auto TV Off Switch
                                 </h5>
-                                <p style={{ color: "#00ffea" }}>Necessity</p>
                                 <p className="card-text">
                                     One of my old roommates used to leave the TV
                                     on all the time even when he wasn't in the
@@ -200,9 +193,6 @@ export default class SoftwareProjects extends Component {
                                 <h5 className="card-title">
                                     Firefighting Drone
                                 </h5>
-                                <p style={{ color: "#00ffea" }}>
-                                    School Project
-                                </p>
                                 <p className="card-text">
                                     FPV drone with a fire extinguisher on its
                                     back.
