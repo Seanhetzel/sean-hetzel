@@ -50,6 +50,19 @@ a {
     border-color: #00ffea;
 }
 
+.btn-primary {
+    color: #202020;
+    background-color: #00ffea;
+    border-color: #00ffea;
+    margin: .5em;
+}
+
+.btn-primary:hover {
+    color: #202020;
+    background-color: #00cebd;
+    border-color: #00cebd;
+}
+
 .card-title {
     color: #00ffea;
     letter-spacing: 0.25em;

@@ -7,8 +7,16 @@ function Connect() {
             <p className="grey-text">
                 I've always loved building things. I'm the creative type. I'll
                 spend days coming up with a clever solution to automate a
-                boaring task so I never have to do it again. I believe that
-                function and design are equally important.{" "}
+                boaring task just so I never have to do it again. I also enjoy
+                building things with other people. Few things are more fun than
+                working with a group of friends to create a thing that has yet
+                to exist. I believe that function and design are equally
+                important. I'll learn whatever I need to learn to achieve the
+                desigered result. With an ecommerce business with over thirty
+                thousand in sales revenue, and an interest in economics, I also
+                understand and appreciate the business side of things. Let's
+                building something incredible and have a positive impact on the
+                world.
             </p>
             <h1 className="page-title">Let's Connect</h1>
 

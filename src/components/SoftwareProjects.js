@@ -30,7 +30,7 @@ export default class SoftwareProjects extends Component {
                                     href="https://seanhetzel.github.io/cloneterest/"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="btn btn-outline-primary"
+                                    className="btn btn-primary"
                                 >
                                     Check it out
                                 </a>
@@ -75,7 +75,7 @@ export default class SoftwareProjects extends Component {
                                     href="https://seanhetzel.github.io/adventure_archive_frontend/index.html"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="btn btn-outline-primary"
+                                    className="btn btn-primary"
                                 >
                                     Check it out
                                 </a>
@@ -119,7 +119,7 @@ export default class SoftwareProjects extends Component {
                                     href="https://seanhetzel.github.io/cloneterest/"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="btn btn-outline-primary"
+                                    className="btn btn-primary"
                                 >
                                     Offline
                                 </a>
@@ -165,7 +165,7 @@ export default class SoftwareProjects extends Component {
                                     href="https://seanhetzel.github.io/cloneterest/"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="btn btn-outline-primary"
+                                    className="btn btn-primary"
                                 >
                                     Offline
                                 </a>
