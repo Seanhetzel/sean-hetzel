@@ -194,7 +194,7 @@ export default class SoftwareProjects extends Component {
                                     Firefighting Drone
                                 </h5>
                                 <p className="card-text">
-                                    FPV drone with a fire extinguisher on its
+                                    FPV drone with a mini fire extinguisher on its
                                     back.
                                 </p>
                                 <p className="card-text grey-text">
