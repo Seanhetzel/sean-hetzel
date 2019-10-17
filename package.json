@@ -1,5 +1,5 @@
 {
-    "homepage": "http://seanhetzel.github.io/sean-hetzel",
+    "homepage": "https://seanhetzel.github.io/sean-hetzel",
     "name": "sean-hetzel",
     "version": "0.1.0",
     "private": true,
@@ -22,12 +22,12 @@
         "rebass": "^4.0.6"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -b master -d build"
+        "eject": "react-scripts eject"
     },
     "eslintConfig": {
         "extends": "react-app"
