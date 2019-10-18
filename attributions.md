@@ -2,7 +2,7 @@
 
 1. Full page scrolling
 - Alvaro Trigo
-- https://alvarotrigo.com/fullPage/
+- https://github.com/alvarotrigo/react-fullpage
 
 2. Mouse scroll indicator
 - Ash Bryant

@@ -1,5 +1,5 @@
 import React from "react";
-import { ScrollToTopOnMount, SectionsContainer, Section } from "react-fullpage";
+import ReactFullpage from "@fullpage/react-fullpage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Header from "./components/Header";
@@ -8,43 +8,35 @@ import SoftwareProjects from "./components/SoftwareProjects";
 import HardwareProjects from "./components/HardwareProjects";
 import Connect from "./components/Connect";
 
-class App extends React.Component {
-    render() {
-        let options = {
-            activeClass: "active", // the class that is appended to the sections links
-            anchors: ["home", "software", "hardware", "contact"], // the anchors for each sections
-            arrowNavigation: true, // use arrow keys
-            className: "SectionContainer", // the class name for the section container
-            delay: 700, // the scroll animation speed
-            navigation: true, // use dots navigatio
-            scrollBar: false, // use the browser default scrollbar
-            sectionClassName: "Section", // the section class name
-            sectionPaddingTop: "0", // the section top padding
-            sectionPaddingBottom: "0", // the section bottom padding
-            // fitToSection: true,
-            verticalAlign: true // align the content of each section vertical
-        };
-        return (
-            <>
-                <ScrollToTopOnMount />
-                <SectionsContainer {...options}>
-                    <Section>
+const App = () => (
+    <ReactFullpage
+        // pluginWrapper={pluginWrapper}
+        licenseKey={"YOUR_KEY_HERE"}
+        scrollingSpeed={500}
+        navigation={true} // use dots navigatio
+        navigationTooltips={["HOME", "SOFTWARE", "HARDWARE", "CONTACT"]}
+        fitToSection={true}
+        cards={true}
+        render={({ state, fullpageApi }) => {
+            return (
+                <ReactFullpage.Wrapper>
+                    <div className="section">
                         <Header />
                         <LandingPage />
-                    </Section>
-                    <Section>
+                    </div>
+                    <div className="section">
                         <SoftwareProjects />
-                    </Section>
-                    <Section>
+                    </div>
+                    <div className="section">
                         <HardwareProjects />
-                    </Section>
-                    <Section>
+                    </div>
+                    <div className="section">
                         <Connect />
-                    </Section>
-                </SectionsContainer>
-            </>
-        );
-    }
-}
+                    </div>
+                </ReactFullpage.Wrapper>
+            );
+        }}
+    />
+);
 
 export default App;
