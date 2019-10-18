@@ -7,7 +7,7 @@ function Connect() {
             <p className="grey-text">
                 I've always loved building things. I'm the creative type. I'll
                 spend days coming up with a clever solution to automate a
-                boaring task just so I never have to do it again. I also enjoy
+                boring task just so I never have to do it again. I also enjoy
                 building things with other people. Few things are more fun than
                 working with a group of friends to create a thing that has yet
                 to exist. I believe that function and design are equally
