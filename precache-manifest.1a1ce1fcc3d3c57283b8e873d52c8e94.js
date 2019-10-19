@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c59fbae8f9a78815ec63aba8f680146",
+    "revision": "638f502fbd7ab7d8a53ec46e3cc84ff9",
     "url": "/sean-hetzel/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sean-hetzel/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "0b214d7a4625e037bc32",
+    "revision": "fea8d73b190086a23d39",
     "url": "/sean-hetzel/static/css/main.0ea3caf7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sean-hetzel/static/js/2.c3d31141.chunk.js"
   },
   {
-    "revision": "0b214d7a4625e037bc32",
-    "url": "/sean-hetzel/static/js/main.fac590d3.chunk.js"
+    "revision": "fea8d73b190086a23d39",
+    "url": "/sean-hetzel/static/js/main.9d75183e.chunk.js"
   },
   {
     "revision": "e29d49598f0f236db0b0",
@@ -64,7 +64,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sean-hetzel/static/media/star-runner-screenshot.b47e9ec9.PNG"
   },
   {
-    "revision": "29dfa9fe00b6bab1e5b6c32e98bca3c1",
-    "url": "/sean-hetzel/static/media/sunset-investing-screenshot.29dfa9fe.PNG"
+    "revision": "3bcab83ae47797fbe74e98b49252e277",
+    "url": "/sean-hetzel/static/media/sunset-investing-image.3bcab83a.png"
   }
 ]);
