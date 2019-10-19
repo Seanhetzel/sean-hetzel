@@ -11,7 +11,7 @@ import Connect from "./components/Connect";
 const App = () => (
     <ReactFullpage
         // pluginWrapper={pluginWrapper}
-        licenseKey={"YOUR_KEY_HERE"}
+        licenseKey={"Oa02tbC^w3"}
         scrollingSpeed={500}
         navigation={true} // use dots navigatio
         navigationTooltips={["HOME", "SOFTWARE", "HARDWARE", "CONTACT"]}
