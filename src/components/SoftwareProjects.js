@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import cloneterestImage from "../images/cloneterest-screenshot.JPG";
 import adventureArchiveImage from "../images/adventure-archinve-screenshot.PNG";
 import starRunnerImage from "../images/star-runner-screenshot.PNG";
-import sunsetInvestingImage from "../images/sunset-investing-screenshot.PNG";
+import sunsetInvestingImage from "../images/sunset-investing-image.png";
 
 export default class SoftwareProjects extends Component {
     render() {
