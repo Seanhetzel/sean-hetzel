@@ -13,12 +13,20 @@ a {
     color: #00ffea;
 }
 
+a:hover {
+    color: #00cebd;
+}
+
+.card-link:hover {
+    text-decoration: none;
+}
+
 .title {
     letter-spacing: 0.5em;
     color: white;
 }
 
-.col-lg-3 {
+.col-lg-4 {
     padding: 0em;
 }
 
@@ -32,11 +40,9 @@ a {
     margin-bottom: 10px; /* Added */
 }
 
-
 .btn-outline-primary {
     color: #00ffea;
     border-color: #00ffea;
-    margin: 0.5em;
 }
 
 .btn-outline-primary:hover {
@@ -49,7 +55,6 @@ a {
     color: #202020;
     background-color: #00ffea;
     border-color: #00ffea;
-    margin: 0.5em;
 }
 
 .btn-primary:hover {

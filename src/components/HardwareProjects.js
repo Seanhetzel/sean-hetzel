@@ -11,9 +11,9 @@ export default class SoftwareProjects extends Component {
         return (
             <>
                 <h1 className="page-title">Hardware Projects</h1>
-                <div className="d-flex p-2">
-                    <div className="row">
-                        <div className="card col-lg-3">
+                <div className="container-fluid">
+                    <div className="card-deck d-flex justify-content-center container-fluid">
+                        <div className="card col-lg-4">
                             <img
                                 className="card-img-top"
                                 src={mrButtersImage1}
@@ -31,9 +31,6 @@ export default class SoftwareProjects extends Component {
                                     designed and 3d printed by me of course. The
                                     software is super basic cuz he just does
                                     whatever I command him to do with my phone.
-                                    Anyway, I think I'm gonna document a few
-                                    more things from my graveyard of unfinished
-                                    projects so look out for more!
                                 </p>
                                 <p className="card-text grey-text">
                                     Autodesk 123D Design, 3D printing, Arduino,
@@ -50,7 +47,7 @@ export default class SoftwareProjects extends Component {
                             </div>
                         </div>
 
-                        <div className="card col-lg-3">
+                        <div className="card col-lg-4">
                             <img
                                 className="card-img-top"
                                 src={poolSkimmerImage1}
@@ -87,7 +84,7 @@ export default class SoftwareProjects extends Component {
                             </div>
                         </div>
 
-                        <div className="card col-lg-3">
+                        <div className="card col-lg-4">
                             <img
                                 className="card-img-top"
                                 src={lightBoxImage1}
@@ -104,8 +101,7 @@ export default class SoftwareProjects extends Component {
                                     designed by me of course. I probably spent
                                     over 200 hours designing, problem solving
                                     and manufacturing 200 units and I even got
-                                    it on store shelves. Only problem was,
-                                    nobody bought it.
+                                    it on store shelves. 
                                 </p>
                                 <p className="card-text grey-text">
                                     Adobe Illustrator, PCB design,
@@ -121,7 +117,7 @@ export default class SoftwareProjects extends Component {
                             </div>
                         </div>
 
-                        <div className="card col-lg-3">
+                        <div className="card col-lg-4">
                             <img
                                 className="card-img-top"
                                 src={automaticDoor1}
@@ -147,7 +143,7 @@ export default class SoftwareProjects extends Component {
                                 </a>
                             </div>
                         </div>
-                        <div className="card col-lg-3">
+                        <div className="card col-lg-4">
                             <img
                                 className="card-img-top"
                                 src={tvOffImage1}
@@ -169,8 +165,7 @@ export default class SoftwareProjects extends Component {
                                     realized there's no way to differentiate
                                     sending an on vs off single which meant it
                                     would constantly be turning on and off the
-                                    TV whenever nobody was in the room. So I
-                                    stopped working on it.
+                                    TV whenever nobody was in the room.
                                 </p>
                                 <p className="card-text grey-text">Arduino</p>
                                 <a
@@ -183,7 +178,7 @@ export default class SoftwareProjects extends Component {
                                 </a>
                             </div>
                         </div>
-                        <div className="card col-lg-3">
+                        <div className="card col-lg-4">
                             <img
                                 className="card-img-top"
                                 src={droneImage1}

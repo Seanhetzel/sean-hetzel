@@ -6,15 +6,20 @@ function Connect() {
             <h1 className="page-title">About Me</h1>
             <p className="grey-text">
                 I've always loved building things. I'm the creative type. I'll
-                spend days coming up with a clever solution to automate a
-                boring task just so I never have to do it again. I also enjoy
-                building things with other people. Few things are more fun than
-                working with a group of friends to create a thing that has yet
-                to exist. I believe that function and design are equally
-                important. I'll learn whatever I need to learn to achieve the
-                desigered result. With an ecommerce business with over thirty
-                thousand in sales revenue, and an interest in economics, I also
-                understand and appreciate the business side of things. Let's
+                spend days coming up with a clever solution to automate a boring
+                task just so I never have to do it again. I also enjoy building
+                things with other people. Few things are more fun than working
+                with a group of friends to create a thing that has yet to exist.
+                I believe that function and design are equally important. I'll
+                learn whatever I need to learn to achieve the desigered result.
+                With an ecommerce business with over thirty thousand in sales
+                revenue, and an interest in economics, I also understand and
+                appreciate the business side of things. Few things are more fun
+                than working with a team to build something incredible,
+                especially if it has a positive social impact. If I set my mind
+                on something, I’ll find a way to make it happen. I'm not one to
+                stick to tradition or hold on to my pre-conceived notions. I
+                value an open mind, a positive attitude and new ideas. Let's
                 building something incredible and have a positive impact on the
                 world.
             </p>
