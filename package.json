@@ -1,15 +1,13 @@
 {
     "name": "sean-hetzel",
+    "homepage": "https://seanhetzel.com",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.25",
         "@fortawesome/free-solid-svg-icons": "^5.11.2",
         "@fortawesome/react-fontawesome": "^0.1.5",
-        "@fullpage/react-fullpage": "^0.1.16",
-        "@rebass/preset": "^4.0.5",
         "bootstrap": "^4.3.1",
-        "emotion-theming": "^10.0.19",
         "mdbootstrap": "^4.8.10",
         "mdbreact": "^4.21.0",
         "react": "^16.10.2",
@@ -21,9 +19,9 @@
         "rebass": "^4.0.6"
     },
     "scripts": {
+        "start": "react-scripts start",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
-        "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
