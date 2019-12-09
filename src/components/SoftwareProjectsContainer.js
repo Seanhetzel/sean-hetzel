@@ -1,7 +1,7 @@
 import React from "react";
 import { Gallery, GalleryImage } from "react-gesture-gallery";
 import cloneterestImage from "../images/cloneterest-screenshot-2.PNG";
-import adventureArchiveImage from "../images/adventure-archive-screenshot-2.PNG";
+import adventureArchiveImage from "../images/adventure-archive-screenshot-3.PNG";
 import starRunnerImage from "../images/star-runner-screenshot-2.PNG";
 import sunsetInvestingImage from "../images/sunset-investing-image.png";
 
@@ -36,7 +36,7 @@ export default function SoftwareProjectsContainer() {
       name: "Adventure Archive",
       images: [{ src: adventureArchiveImage }, { src: adventureArchiveImage }],
       description:
-        "Platform where users can share archaeological sites and amazing places. Its sorta like Reddit because its a discussion platform for sharing/talking about archaeological sites and sorta like Instagram because users scroll can through sites and leave comments much like Instagram.",
+        "Platform where users can share archaeological sites and amazing places. Its sorta like Reddit because its a discussion platform for sharing/talking about archaeological sites and sorta like Instagram because users can scroll through sites and leave comments much like Instagram.",
       tech: "Rails, JavaScript",
       visitLink:
         "https://sean-hetzel.github.io/adventure_archive_frontend/index.html",
@@ -60,7 +60,7 @@ export default function SoftwareProjectsContainer() {
     <>
       {softwareData.map(project => {
         return (
-          <>
+          <div className="project-card">
             <div className="gallery">
               <a
                 href={project.visitLink}
@@ -81,8 +81,10 @@ export default function SoftwareProjectsContainer() {
                     />
                   ))}
                 </Gallery>
+                {/* <img src={project.images[0].src}></img> */}
               </a>
             </div>
+            <div className="project-info">
             <h5 className="card-title">{project.name}</h5>
             <p>{project.description}</p>
             <p className="grey-text">{project.tech}</p>
@@ -110,7 +112,8 @@ export default function SoftwareProjectsContainer() {
             >
               Backend GitHub
             </a>
-          </>
+            </div>
+          </div>
         );
       })}
     </>

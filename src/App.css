@@ -72,6 +72,10 @@ a:hover {
     color: #a1a1a1;
 }
 
+.header{
+    background: #00ffea;
+}
+
 #landing_page{
     height: 100vh;
     background: #00ffea;
@@ -322,7 +326,20 @@ a:hover {
 /* Social Media Icons End */
 
 .gallery{
+    position: relative;
     background: black;
     width: 50vw;
     height: auto;
+    margin-right:0;
+}
+
+.project-card{
+    margin: 10vw 10vw;
+}
+
+.project-info{
+    position: relative;
+    margin-left:auto; margin-right:0;
+    width: 20vw;
+
 }
