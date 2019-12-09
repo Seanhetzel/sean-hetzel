@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Header from "./components/Header";
 import LandingPage from "./components/LandingPage";
-import SoftwareProjects from "./components/SoftwareProjects";
+import SoftwareProjects from "./components/SoftwareProjectsContainer";
 import HardwareProjects from "./components/HardwareProjects";
 import Connect from "./components/Connect";
 
@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <Header />
+        {/* <Header /> */}
         <LandingPage />
         <SoftwareProjects />
         <HardwareProjects />
