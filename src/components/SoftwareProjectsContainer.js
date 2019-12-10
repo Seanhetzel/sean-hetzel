@@ -12,30 +12,18 @@ export default function SoftwareProjectsContainer() {
   const softwareData = [
     {
       id: 1,
-      name: "Sunset Investing",
-      images: [{ src: sunsetInvestingImage }, { src: sunsetInvestingImage }],
+      name: "C L O N E T E R E S T",
+      images: [{ src: cloneterestImage }, { src: cloneterestImage }],
       description:
-        "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
-      tech: "React, Bootstrap, Rails, JWT",
-      finished: false,
+        "Idea board for images much like Pinterest where users can add, like and delete pins. The Pins are organized in a masonry layout.",
+      tech: "Rails, JavaScript",
+      finished: true,
       visitLink: "https://sean-hetzel.github.io/cloneterest/",
-      frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
-      backEndLink: "https://github.com/sean-hetzel/sunset-investing-backend"
+      frontEndLink: "https://github.com/sean-hetzel/cloneterest",
+      backEndLink: "https://github.com/sean-hetzel/cloneterest_backend"
     },
     {
       id: 2,
-      name: "STAR RUNNER",
-      images: [{ src: starRunnerImage }, { src: starRunnerImage }],
-      description:
-        "80s inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
-      tech: "React, Phaser, Ion Phaser, Rails",
-      finished: false,
-      visitLink: "https://sean-hetzel.github.io/star-runner/#/",
-      frontEndLink: "https://github.com/sean-hetzel/star-runner",
-      backEndLink: "https://github.com/sean-hetzel/star-runner-backend"
-    },
-    {
-      id: 3,
       name: "Adventure Archive",
       images: [{ src: adventureArchiveImage }, { src: adventureArchiveImage }],
       description:
@@ -48,16 +36,28 @@ export default function SoftwareProjectsContainer() {
       backEndLink: "https://github.com/sean-hetzel/adventure_archive_backend"
     },
     {
-      id: 4,
-      name: "C L O N E T E R E S T",
-      images: [{ src: cloneterestImage }, { src: cloneterestImage }],
+      id: 3,
+      name: "STAR RUNNER",
+      images: [{ src: starRunnerImage }, { src: starRunnerImage }],
       description:
-        "Idea board for images much like Pinterest where users can add, like and delete pins. The Pins are organized in a masonry layout.",
-      tech: "Rails, JavaScript",
-      finished: true,
+        "80s inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
+      tech: "React, Phaser, Ion Phaser, Rails",
+      finished: false,
+      visitLink: "https://sean-hetzel.github.io/star-runner/#/",
+      frontEndLink: "https://github.com/sean-hetzel/star-runner",
+      backEndLink: "https://github.com/sean-hetzel/star-runner-backend"
+    },
+    {
+      id: 4,
+      name: "Sunset Investing",
+      images: [{ src: sunsetInvestingImage }, { src: sunsetInvestingImage }],
+      description:
+        "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
+      tech: "React, Bootstrap, Rails, JWT",
+      finished: false,
       visitLink: "https://sean-hetzel.github.io/cloneterest/",
-      frontEndLink: "https://github.com/sean-hetzel/cloneterest",
-      backEndLink: "https://github.com/sean-hetzel/cloneterest_backend"
+      frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
+      backEndLink: "https://github.com/sean-hetzel/sunset-investing-backend"
     }
   ];
 
@@ -93,15 +93,10 @@ export default function SoftwareProjectsContainer() {
               <p>{project.description}</p>
               <p className="grey-text">{project.tech}</p>
               {project.finished ? null : (
-                <>
-                  <img
-                    classname="wrench-icon"
-                    src={wrenchIcon}
-                    alt="wrench icon"
-                    height="30"
-                  />
+                <div className="wip-container">
+                  <img src={wrenchIcon} alt="wrench icon" height="30" />
                   <p className="wip">Work in progress.</p>
-                </>
+                </div>
               )}
               <a
                 href={project.visitLink}

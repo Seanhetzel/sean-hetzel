@@ -15,6 +15,8 @@ a {
 
 a:hover {
   color: #00cebd;
+  text-decoration: none;
+
 }
 
 .card-link:hover {
@@ -25,6 +27,65 @@ a:hover {
   letter-spacing: 0.5em;
   color: black;
 }
+
+.header-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00ffea;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.header-li {
+  float: left;
+}
+
+.header-li .header-a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+
+/* .header-li .header-a:hover:not(.active) {
+    background-color: #111;
+  } */
+
+.active {
+  color: #00ffea;
+  background-color: grey;
+}
+
+header {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #00ffea;
+  color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  
+}
+
+.nav-btn{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* header {
+  background-color: #1abc9c;
+  height: 100px;
+} */
 
 /* .col-lg-4 {
   padding: 0em;
@@ -91,7 +152,7 @@ a:hover {
   font-weight: bold;
   letter-spacing: 0.1em;
   color: #00ffea;
-  background: url(./images/stars.gif) no-repeat;
+  background: url(./images/pulse.gif) no-repeat;
   background-size: 65vw;
   background-position: center;
   -webkit-background-clip: text;
@@ -102,6 +163,7 @@ a:hover {
   margin: 0 auto;
   float: none;
   line-height: 1;
+  padding-top: 50px;
 }
 
 .page-title {
@@ -371,4 +433,18 @@ a:hover {
 
 .wip {
   color: #00ffea;
+}
+
+/* .wip-container {
+  text-align: center;
+} */
+
+.num-res{
+    text-align: center;
+    position: relative;
+}
+
+.res-num-info{
+    display: inline;
+    margin: 2em;
 }
