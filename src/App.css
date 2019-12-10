@@ -170,9 +170,9 @@ header {
   color: #00ffea;
   text-transform: uppercase;
   letter-spacing: 0.5em;
-  padding-bottom: 1em;
-  /* float: right; */
-  font-size: 12pt;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  font-size: 18pt;
 }
 
 /* Mouse Start */
@@ -402,7 +402,7 @@ header {
 }
 
 .project-card {
-  margin: 10vw 10vw 10vw 10vw;
+  margin: 5vw 10vw 10vw 10vw;
 }
 
 .project-info {
@@ -431,7 +431,7 @@ header {
   text-align: center;
 }
 
-.wip {
+.blue-text {
   color: #00ffea;
 }
 

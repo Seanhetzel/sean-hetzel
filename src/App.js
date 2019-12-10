@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import LandingPage from "./components/LandingPage";
-import SoftwareProjects from "./components/SoftwareProjectsContainer";
+import SoftwareProjects from "./components/SoftwareProjects";
 import HardwareProjects from "./components/HardwareProjects";
 import Connect from "./components/Connect";
 
@@ -22,7 +22,7 @@ class App extends Component {
         {/* <Route path="/home" component={LandingPage}/> */}
         {/* <Route path="/" render={<LandingPage/>}/> */}
         <SoftwareProjects />
-        {/* <HardwareProjects /> */}
+        <HardwareProjects />
         <Connect />
         {/* <Route path="/" render={props => <LandingPage {...props} />} />
           <Route path="/software" render={props => <SoftwareProjects {...props} />} />

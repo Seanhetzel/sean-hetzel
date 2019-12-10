@@ -16,8 +16,8 @@ function Connect() {
         something, I’ll find a way to make it happen. I'm not one to stick to
         tradition or hold on to my pre-conceived notions. I'm very
         entrepreneurial. I understand and appreciate economics and the business
-        side of things too. I value an open mind, a positive attitude and new
-        ideas. I reason by first principles. Let's building something incredible
+        side of things too. I reason by first principles. I value an open mind,
+        a positive attitude and new ideas. Let's building something incredible
         and make the world a better place.
       </p>
       <h1 className="page-title centered">Let's Connect</h1>
@@ -102,11 +102,11 @@ function Connect() {
         </li>
       </ul>
       <div className="num-res">
-      <h4 className="page-title res-num-info">(425) 408-2068</h4>
-      <a href={resume}>
-        <h4 className="page-title res-num-info">RESUME </h4>
-      </a>
-</div>
+        <h4 className="page-title res-num-info">(425) 408-2068</h4>
+        <a href={resume}>
+          <h4 className="page-title res-num-info">RESUME </h4>
+        </a>
+      </div>
     </div>
   );
 }
