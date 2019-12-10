@@ -5,6 +5,7 @@ import cloneterestImage from "../images/cloneterest-screenshot-2.PNG";
 import adventureArchiveImage from "../images/adventure-archive-screenshot-3.PNG";
 import starRunnerImage from "../images/star-runner-screenshot-2.PNG";
 import sunsetInvestingImage from "../images/sunset-investing-image.png";
+import tempPic from "../images/temp-pic.jpg";
 
 export default function SoftwareProjects() {
   const [index, setIndex] = React.useState(0);
@@ -18,6 +19,7 @@ export default function SoftwareProjects() {
         "Idea board for images much like Pinterest where users can add, like and delete pins. The Pins are organized in a masonry layout.",
       tech: "Rails, JavaScript",
       finished: true,
+      online: true,
       soloProject: true,
       visitLink: "https://sean-hetzel.github.io/cloneterest/",
       frontEndLink: "https://github.com/sean-hetzel/cloneterest",
@@ -31,6 +33,7 @@ export default function SoftwareProjects() {
         "Platform where users can share archaeological sites and amazing places. Its sorta like Reddit because its a discussion platform for sharing/talking about archaeological sites and sorta like Instagram because users can scroll through sites and leave comments much like Instagram.",
       tech: "Rails, JavaScript",
       finished: true,
+      online: true,
       soloProject: true,
       visitLink:
         "https://sean-hetzel.github.io/adventure_archive_frontend/index.html",
@@ -45,6 +48,7 @@ export default function SoftwareProjects() {
         "80s inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
       tech: "React, Phaser, Ion Phaser, Rails",
       finished: false,
+      online: true,
       soloProject: true,
       visitLink: "https://sean-hetzel.github.io/star-runner/#/",
       frontEndLink: "https://github.com/sean-hetzel/star-runner",
@@ -58,6 +62,7 @@ export default function SoftwareProjects() {
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
       tech: "React, Bootstrap, Rails, JWT",
       finished: false,
+      online: false,
       soloProject: true,
       visitLink: "#",
       frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
@@ -66,39 +71,43 @@ export default function SoftwareProjects() {
     {
       id: 4,
       name: "Personality Quiz",
-      images: [{ src: sunsetInvestingImage }, { src: sunsetInvestingImage }],
+      images: [{ src: tempPic }, { src: tempPic }],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
-      tech: "React, Bootstrap, Rails, JWT",
+      tech: "Rails",
       finished: true,
+      online: false,
       soloProject: false,
-      teammate: { name: "Amin Aminamos", github: "https://github.com/aminamos" },
-      visitLink: "#",
-      frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
-      backEndLink: "https://github.com/sean-hetzel/sunset-investing-backend"
+      teammate: {
+        name: "Amin Aminamos",
+        github: "https://github.com/aminamos"
+      },
+      frontEndLink: "https://github.com/sean-hetzel/mod_2_project",
+      backEndLink: "#"
     },
     {
       id: 4,
       name: "Mars Rover Photos",
-      images: [{ src: sunsetInvestingImage }, { src: sunsetInvestingImage }],
+      images: [{ src: tempPic }, { src: tempPic }],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
-      tech: "React, Bootstrap, Rails, JWT",
+      tech: "Ruby, NASA API",
       finished: true,
+      online: false,
       soloProject: false,
       teammate: {
         name: "Evan Carlsen",
         github: "https://github.com/evancarlsen"
       },
-      visitLink: "#",
-      frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
-      backEndLink: "https://github.com/sean-hetzel/sunset-investing-backend"
+      frontEndLink:
+        "https://github.com/evancarlsen/module-one-final-project-guidelines-seattle-web-062419",
+      backEndLink: "#"
     }
   ];
 
   return (
     <>
-        <h1 className="page-title centered">SOFTWARE</h1>
+      <h1 className="page-title centered">SOFTWARE PROJECTS</h1>
       {softwareData.map(project => {
         return (
           <div className="project-card">
@@ -149,14 +158,16 @@ export default function SoftwareProjects() {
                   <p className="blue-text">Work in Progress</p>
                 </div>
               )}
-              <a
-                href={project.visitLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
-                Visit
-              </a>
+              {project.online ? (
+                <a
+                  href={project.visitLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  Visit
+                </a>
+              ) : null}
               <a
                 href={project.frontEndLink}
                 target="_blank"

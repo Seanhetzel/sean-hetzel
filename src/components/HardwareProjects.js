@@ -22,9 +22,8 @@ export default function HardwareProjects() {
         "Autodesk 123D Design, 3D printing, Arduino, Bluetooth control with an Android phone",
       finished: false,
       soloProject: true,
-      visitLink: "https://sean-hetzel.github.io/cloneterest/",
-      frontEndLink: "https://github.com/sean-hetzel/cloneterest",
-      backEndLink: "https://github.com/sean-hetzel/cloneterest_backend"
+      links: [{name: "YouTube", link: "https://youtu.be/lyy9mVMGQ5w"}]
+
     },
     {
       id: 2,
@@ -35,10 +34,8 @@ export default function HardwareProjects() {
       tech: "Autodesk 123D Design, 3D printing, Arduino",
       finished: false,
       soloProject: true,
-      visitLink:
-        "https://sean-hetzel.github.io/adventure_archive_frontend/index.html",
-      frontEndLink: "https://github.com/sean-hetzel/adventure_archive_frontend",
-      backEndLink: "https://github.com/sean-hetzel/adventure_archive_backend"
+      links: []
+
     },
     {
       id: 3,
@@ -49,9 +46,8 @@ export default function HardwareProjects() {
       tech: "Adobe Illustrator, PCB design",
       finished: false,
       soloProject: true,
-      visitLink: "https://sean-hetzel.github.io/star-runner/#/",
-      frontEndLink: "https://github.com/sean-hetzel/star-runner",
-      backEndLink: "https://github.com/sean-hetzel/star-runner-backend"
+      links: [{name: "Instagram", link: "https://www.instagram.com/beardown_light_box/"}, {name: "UA News", link: "https://eller.arizona.edu/news/2019/02/entrepreneurship-students-sell-products-ua-bookstore"}]
+
     },
     {
       id: 4,
@@ -62,9 +58,8 @@ export default function HardwareProjects() {
       tech: "Arduino",
       finished: false,
       soloProject: true,
-      visitLink: "#",
-      frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
-      backEndLink: "https://github.com/sean-hetzel/sunset-investing-backend"
+      links: []
+
     },
     {
       id: 4,
@@ -75,9 +70,8 @@ export default function HardwareProjects() {
       tech: "Arduino",
       finished: false,
       soloProject: true,
-      visitLink: "#",
-      frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
-      backEndLink: "https://github.com/sean-hetzel/sunset-investing-backend"
+      links: []
+
     },
     {
       id: 4,
@@ -87,15 +81,13 @@ export default function HardwareProjects() {
       tech: "Cleanflight, basic drone stuff",
       finished: false,
       soloProject: true,
-      visitLink: "#",
-      frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
-      backEndLink: "https://github.com/sean-hetzel/sunset-investing-backend"
+      links: []
     }
   ];
 
   return (
     <>
-    <h1 className="page-title centered">HARDWARE</h1>
+      <h1 className="page-title centered">HARDWARE PROJECTS</h1>
       {hardwareData.map(project => {
         return (
           <div className="project-card">
@@ -146,30 +138,20 @@ export default function HardwareProjects() {
                   <p className="blue-text">Work in Progress</p>
                 </div>
               )}
-              <a
-                href={project.visitLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
-              >
-                Visit
-              </a>
-              <a
-                href={project.frontEndLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-outline-primary"
-              >
-                Frontend GitHub
-              </a>
-              <a
-                href={project.backEndLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-outline-primary"
-              >
-                Backend GitHub
-              </a>
+              {project.links.map(link => {
+                return(
+                <a
+                  href={link.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  {link.name}
+                </a>)
+              })}
+                
+             
+
             </div>
           </div>
         );
