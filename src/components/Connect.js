@@ -2,8 +2,9 @@ import React from "react";
 
 function Connect() {
     return (
-        <>
-            <h1 className="page-title">About Me</h1>
+        <div className="about">
+
+            <h1 className="page-title centered">About Me</h1>
             <p className="grey-text">
                 I've always loved building things. I'm the creative type. I'll
                 spend days coming up with a clever solution to automate a boring
@@ -23,7 +24,7 @@ function Connect() {
                 building something incredible and have a positive impact on the
                 world.
             </p>
-            <h1 className="page-title">Let's Connect</h1>
+            <h1 className="page-title centered">Let's Connect</h1>
 
             <ul className="soc">
                 <li>
@@ -119,8 +120,8 @@ function Connect() {
                     </a>
                 </li>
             </ul>
-            <h4 className="page-title">(425) 408-2068</h4>
-        </>
+            <h4 className="page-title centered">(425) 408-2068</h4>
+        </div>
     );
 }
 

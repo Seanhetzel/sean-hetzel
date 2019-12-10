@@ -62,56 +62,55 @@ export default function SoftwareProjectsContainer() {
         return (
           <div className="project-card">
             <div className="gallery">
-              <a
-                href={project.visitLink}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Gallery
+                index={index}
+                onRequestChange={i => {
+                  setIndex(i);
+                }}
               >
-                <Gallery
-                  index={index}
-                  onRequestChange={i => {
-                    setIndex(i);
-                  }}
-                >
-                  {project.images.map(img => (
+                {project.images.map(img => (
+                  <a
+                    href={project.visitLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <GalleryImage
                       objectFit="contain"
                       key={img.src}
                       src={img.src}
                     />
-                  ))}
-                </Gallery>
-                {/* <img src={project.images[0].src}></img> */}
-              </a>
+                  </a>
+                ))}
+              </Gallery>
             </div>
             <div className="project-info">
-            <h5 className="card-title">{project.name}</h5>
-            <p>{project.description}</p>
-            <p className="grey-text">{project.tech}</p>
-            <a
-              href={project.visitLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              Visit
-            </a>
-            <a
-              href={project.frontEndLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-outline-primary"
-            >
-              Frontend GitHub
-            </a>
-            <a
-              href={project.backEndLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-outline-primary"
-            >
-              Backend GitHub
-            </a>
+              <h5 className="card-title">{project.name}</h5>
+              <p>{project.description}</p>
+              <p className="grey-text">{project.tech}</p>
+              <a
+                href={project.visitLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                Visit
+              </a>
+              <a
+                href={project.frontEndLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary"
+              >
+                Frontend GitHub
+              </a>
+              <a
+                href={project.backEndLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary"
+              >
+                Backend GitHub
+              </a>
             </div>
           </div>
         );
