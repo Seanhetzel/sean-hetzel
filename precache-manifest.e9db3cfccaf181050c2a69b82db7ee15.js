@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8daff1ba3c7800e16e426266027fec5",
+    "revision": "98bd92808211bd2aae091ba3c22b1112",
     "url": "/index.html"
   },
   {
-    "revision": "60b1bfeba494d8bcec7f",
+    "revision": "56f5c8569a654faef41f",
     "url": "/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "036d5797d5b2b169034b",
-    "url": "/static/css/main.c4a14af5.chunk.css"
+    "revision": "99ff8ba0f895805d10c4",
+    "url": "/static/css/main.eeac8109.chunk.css"
   },
   {
-    "revision": "60b1bfeba494d8bcec7f",
-    "url": "/static/js/2.5b81039a.chunk.js"
+    "revision": "56f5c8569a654faef41f",
+    "url": "/static/js/2.63bef274.chunk.js"
   },
   {
-    "revision": "036d5797d5b2b169034b",
-    "url": "/static/js/main.60b7591d.chunk.js"
+    "revision": "99ff8ba0f895805d10c4",
+    "url": "/static/js/main.d2eac39b.chunk.js"
   },
   {
     "revision": "f78082cdf1e695c65bb9",
@@ -70,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3bcab83ae47797fbe74e98b49252e277",
     "url": "/static/media/sunset-investing-image.3bcab83a.png"
+  },
+  {
+    "revision": "88022065b2437ccdac40eb6259065a40",
+    "url": "/static/media/temp-pic.88022065.jpg"
   }
 ]);
