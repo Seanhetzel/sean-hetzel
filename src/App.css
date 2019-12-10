@@ -38,10 +38,10 @@ a:hover {
   margin-bottom: 10px; 
 } */
 
-.btn{
-    border-radius: 0;
-    margin-right: 10px;
-    margin-top: 10px;
+.btn {
+  border-radius: 0;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .btn-outline-primary {
@@ -87,21 +87,21 @@ a:hover {
 
 .lets-build {
   font-family: "Open-sans", sans-serif;
-  font-size: 20rem;
-  font-weight: bolder;
+  font-size: 18vw;
+  font-weight: bold;
   letter-spacing: 0.1em;
   color: #00ffea;
-  background: url(./images/space-6.gif) no-repeat;
-  background-size: 70rem;
+  background: url(./images/stars.gif) no-repeat;
+  background-size: 65vw;
   background-position: center;
   -webkit-background-clip: text;
   background-clip: "";
   -webkit-text-fill-color: transparent;
-  width: 80rem;
+  width: 80vw;
   text-align: center;
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
+  margin: 0 auto;
+  float: none;
+  line-height: 1;
 }
 
 .page-title {
@@ -174,12 +174,13 @@ a:hover {
   font-size: 13px;
   font-weight: normal;
   color: #7f8c8d;
-  color: #fff;
+  color: black;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
   margin-top: 1em;
   text-decoration: none;
   overflow: hidden;
+  margin-left: 49%;
 }
 .mouse-scroll .mouse {
   position: relative;
@@ -190,7 +191,7 @@ a:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 3px solid #fff;
+  border: 3px solid black;
   border-radius: 23px;
 }
 .mouse-scroll .mouse .mouse-movement {
@@ -201,7 +202,7 @@ a:hover {
   width: 8px;
   height: 8px;
   margin: -4px 0 0 -4px;
-  background: #fff;
+  background: black;
   border-radius: 50%;
   -webkit-animation: scroll-ani 4s linear infinite;
   -moz-animation: scroll-ani 4s linear infinite;
@@ -368,3 +369,6 @@ a:hover {
   text-align: center;
 }
 
+.wip {
+  color: #00ffea;
+}

@@ -48,7 +48,7 @@ function Connect() {
                 <li>
                     <a
                         className="icon-13 github"
-                        href="https://github.com/Seanhetzel"
+                        href="https://github.com/sean-hetzel"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="GitHub"
