@@ -72,7 +72,7 @@ export default function SoftwareProjects() {
     {
       id: 4,
       name: "Personality Quiz",
-      images: [{ src: Buzz1 }, { src: Buzz1 }],
+      images: [{ src: Buzz5 }, { src: Buzz8 }],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
       tech: "Rails",
@@ -89,7 +89,7 @@ export default function SoftwareProjects() {
     {
       id: 4,
       name: "Mars Rover Photos",
-      images: [{ src: Mars1 }, { src: Mars1 }],
+      images: [{ src: Mars3 }, { src: Mars9 }],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
       tech: "Ruby, NASA API",
