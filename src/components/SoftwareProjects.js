@@ -5,8 +5,10 @@ import cloneterestImage from "../images/cloneterest-screenshot-2.PNG";
 import adventureArchiveImage from "../images/adventure-archive-screenshot-3.PNG";
 import starRunnerImage from "../images/star-runner-screenshot-2.PNG";
 import sunsetInvestingImage from "../images/sunset-investing-image.png";
-import Buzz1 from "../images/Buzz1.png";
-import Mars1 from "../images/Mars1.png"
+import Buzz5 from "../images/Buzz5.png";
+import Buzz8 from "../images/Buzz8.png";
+import Mars3 from "../images/Mars3.png"
+import Mars9 from "../images/Mars9.png"
 
 export default function SoftwareProjects() {
   const [index, setIndex] = React.useState(0);
