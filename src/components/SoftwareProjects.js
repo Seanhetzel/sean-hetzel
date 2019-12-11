@@ -5,7 +5,8 @@ import cloneterestImage from "../images/cloneterest-screenshot-2.PNG";
 import adventureArchiveImage from "../images/adventure-archive-screenshot-3.PNG";
 import starRunnerImage from "../images/star-runner-screenshot-2.PNG";
 import sunsetInvestingImage from "../images/sunset-investing-image.png";
-import tempPic from "../images/temp-pic.jpg";
+import Buzz1 from "../images/Buzz1.png";
+import Mars1 from "../images/Mars1.png"
 
 export default function SoftwareProjects() {
   const [index, setIndex] = React.useState(0);
@@ -71,7 +72,7 @@ export default function SoftwareProjects() {
     {
       id: 4,
       name: "Personality Quiz",
-      images: [{ src: tempPic }, { src: tempPic }],
+      images: [{ src: Buzz1 }, { src: Buzz1 }],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
       tech: "Rails",
@@ -88,7 +89,7 @@ export default function SoftwareProjects() {
     {
       id: 4,
       name: "Mars Rover Photos",
-      images: [{ src: tempPic }, { src: tempPic }],
+      images: [{ src: Mars1 }, { src: Mars1 }],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
       tech: "Ruby, NASA API",
