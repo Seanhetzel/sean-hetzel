@@ -4,11 +4,14 @@ import wrenchIcon from "../images/wrench-icon-blue.png";
 import cloneterestImage from "../images/cloneterest-screenshot-2.PNG";
 import adventureArchiveImage from "../images/adventure-archive-screenshot-3.PNG";
 import starRunnerImage from "../images/star-runner-screenshot-2.PNG";
-import sunsetInvestingImage from "../images/sunset-investing-image.png";
+import sunsetInvestingImage2 from "../images/sunset-investing-screenshot-2.PNG";
+import sunsetInvestingImage3 from "../images/sunset-investing-screenshot-3.PNG";
+import sunsetInvestingImage4 from "../images/sunset-investing-screenshot-4.PNG";
+
 import Buzz5 from "../images/Buzz5.png";
 import Buzz8 from "../images/Buzz8.png";
-import Mars3 from "../images/Mars3.png"
-import Mars9 from "../images/Mars9.png"
+import Mars3 from "../images/Mars3.png";
+import Mars9 from "../images/Mars9.png";
 
 export default function SoftwareProjects() {
   const [index, setIndex] = React.useState(0);
@@ -16,20 +19,38 @@ export default function SoftwareProjects() {
   const softwareData = [
     {
       id: 1,
-      name: "C L O N E T E R E S T",
-      images: [{ src: cloneterestImage }, { src: cloneterestImage }],
+      name: "Sunset Investing",
+      images: [
+        { src: sunsetInvestingImage2 },
+        { src: sunsetInvestingImage3 },
+        { src: sunsetInvestingImage4 }
+      ],
       description:
-        "Idea board for images much like Pinterest where users can add, like and delete pins. The Pins are organized in a masonry layout.",
-      tech: "Rails, JavaScript",
-      finished: true,
-      online: true,
+        "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
+      tech: "React, Bootstrap, Rails, JWT",
+      finished: false,
+      online: false,
       soloProject: true,
-      visitLink: "https://sean-hetzel.github.io/cloneterest/",
-      frontEndLink: "https://github.com/sean-hetzel/cloneterest",
-      backEndLink: "https://github.com/sean-hetzel/cloneterest_backend"
+      visitLink: "#",
+      frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
+      backEndLink: "https://github.com/sean-hetzel/sunset-investing-backend"
     },
     {
       id: 2,
+      name: "STAR RUNNER",
+      images: [{ src: starRunnerImage }, { src: starRunnerImage }],
+      description:
+        "80s inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
+      tech: "React, Phaser, Ion Phaser, Rails",
+      finished: false,
+      online: true,
+      soloProject: true,
+      visitLink: "https://sean-hetzel.github.io/star-runner/#/",
+      frontEndLink: "https://github.com/sean-hetzel/star-runner",
+      backEndLink: "https://github.com/sean-hetzel/star-runner-backend"
+    },
+    {
+      id: 3,
       name: "Adventure Archive",
       images: [{ src: adventureArchiveImage }, { src: adventureArchiveImage }],
       description:
@@ -44,35 +65,21 @@ export default function SoftwareProjects() {
       backEndLink: "https://github.com/sean-hetzel/adventure_archive_backend"
     },
     {
-      id: 3,
-      name: "STAR RUNNER",
-      images: [{ src: starRunnerImage }, { src: starRunnerImage }],
+      id: 4,
+      name: "C L O N E T E R E S T",
+      images: [{ src: cloneterestImage }, { src: cloneterestImage }],
       description:
-        "80s inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
-      tech: "React, Phaser, Ion Phaser, Rails",
-      finished: false,
+        "Idea board for images much like Pinterest where users can add, like and delete pins. The Pins are organized in a masonry layout.",
+      tech: "Rails, JavaScript",
+      finished: true,
       online: true,
       soloProject: true,
-      visitLink: "https://sean-hetzel.github.io/star-runner/#/",
-      frontEndLink: "https://github.com/sean-hetzel/star-runner",
-      backEndLink: "https://github.com/sean-hetzel/star-runner-backend"
+      visitLink: "https://sean-hetzel.github.io/cloneterest/",
+      frontEndLink: "https://github.com/sean-hetzel/cloneterest",
+      backEndLink: "https://github.com/sean-hetzel/cloneterest_backend"
     },
     {
-      id: 4,
-      name: "Sunset Investing",
-      images: [{ src: sunsetInvestingImage }, { src: sunsetInvestingImage }],
-      description:
-        "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
-      tech: "React, Bootstrap, Rails, JWT",
-      finished: false,
-      online: false,
-      soloProject: true,
-      visitLink: "#",
-      frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
-      backEndLink: "https://github.com/sean-hetzel/sunset-investing-backend"
-    },
-    {
-      id: 4,
+      id: 5,
       name: "Personality Quiz",
       images: [{ src: Buzz5 }, { src: Buzz8 }],
       description:
@@ -89,7 +96,7 @@ export default function SoftwareProjects() {
       backEndLink: "#"
     },
     {
-      id: 4,
+      id: 6,
       name: "Mars Rover Photos",
       images: [{ src: Mars3 }, { src: Mars9 }],
       description:
@@ -121,19 +128,27 @@ export default function SoftwareProjects() {
                   setIndex(i);
                 }}
               >
-                {project.images.map(img => (
-                  <a
-                    href={project.visitLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                {project.images.map(img =>
+                  project.online ? (
+                    <a
+                      href={project.visitLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GalleryImage
+                        objectFit="contain"
+                        key={img.src}
+                        src={img.src}
+                      />
+                    </a>
+                  ) : (
                     <GalleryImage
                       objectFit="contain"
                       key={img.src}
                       src={img.src}
                     />
-                  </a>
-                ))}
+                  )
+                )}
               </Gallery>
             </div>
             <div className="project-info">

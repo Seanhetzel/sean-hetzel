@@ -12,7 +12,7 @@ function Connect() {
         things with other people. Few things are more fun than working with a
         group of friends to create something that has yet to exist. I believe
         that function and design are equally important. I'll learn whatever I
-        need to learn to achieve the desigered result. If I set my mind on
+        need to learn to achieve the desired result. If I set my mind on
         something, I’ll find a way to make it happen. I'm not one to stick to
         tradition or hold on to my pre-conceived notions. I'm very
         entrepreneurial. I understand and appreciate economics and the business
