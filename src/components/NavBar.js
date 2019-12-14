@@ -29,7 +29,7 @@ function NavBar() {
       <h5 className="title nav-btn">SOFTWARE</h5>
       <h5 className="title nav-btn">HARDWARE</h5>
       <h5 className="title nav-btn">CONTACT</h5>
-      *NAV DOES NOT WORK YET*
+      *NAV BAR DOES NOT WORK YET*
     </header>
   );
 }

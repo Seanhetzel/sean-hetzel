@@ -22,7 +22,7 @@ export default function HardwareProjects() {
         "Autodesk 123D Design, 3D printing, Arduino, Bluetooth control with an Android phone",
       finished: false,
       soloProject: true,
-      links: [{name: "YouTube", link: "https://youtu.be/lyy9mVMGQ5w"}]
+      links: [{name: "YouTube", url: "https://youtu.be/lyy9mVMGQ5w"}]
 
     },
     {
@@ -46,7 +46,7 @@ export default function HardwareProjects() {
       tech: "Adobe Illustrator, PCB design",
       finished: false,
       soloProject: true,
-      links: [{name: "Instagram", link: "https://www.instagram.com/beardown_light_box/"}, {name: "UA News", link: "https://eller.arizona.edu/news/2019/02/entrepreneurship-students-sell-products-ua-bookstore"}]
+      links: [{name: "Instagram", url: "https://www.instagram.com/beardown_light_box/"}, {name: "UA News", url: "https://eller.arizona.edu/news/2019/02/entrepreneurship-students-sell-products-ua-bookstore"}]
 
     },
     {
@@ -141,7 +141,7 @@ export default function HardwareProjects() {
               {project.links.map(link => {
                 return(
                 <a
-                  href={link.link}
+                  href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"

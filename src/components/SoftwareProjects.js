@@ -18,9 +18,15 @@ import starRunnerImage4 from "../images/star-runner-screenshot-4.PNG";
 import starRunnerImage5 from "../images/star-runner-screenshot-5.PNG";
 import starRunnerImage6 from "../images/star-runner-screenshot-6.PNG";
 
-import sunsetInvestingImage2 from "../images/sunset-investing-screenshot-2.PNG";
 import sunsetInvestingImage3 from "../images/sunset-investing-screenshot-3.PNG";
 import sunsetInvestingImage4 from "../images/sunset-investing-screenshot-4.PNG";
+import sunsetInvestingImage5 from "../images/sunset-investing-screenshot-5.PNG";
+import sunsetInvestingImage6 from "../images/sunset-investing-screenshot-6.PNG";
+import sunsetInvestingImage7 from "../images/sunset-investing-screenshot-7.PNG";
+import sunsetInvestingImage8 from "../images/sunset-investing-screenshot-8.PNG";
+import sunsetInvestingImage9 from "../images/sunset-investing-screenshot-9.PNG";
+import sunsetInvestingImage10 from "../images/sunset-investing-screenshot-10.PNG";
+import sunsetInvestingImage11 from "../images/sunset-investing-screenshot-11.PNG";
 
 import Buzz2 from "../images/Buzz2.png";
 import Buzz4 from "../images/Buzz4.png";
@@ -41,9 +47,15 @@ export default function SoftwareProjects() {
       id: 1,
       name: "Sunset Investing",
       images: [
-        { src: sunsetInvestingImage2 },
+        { src: sunsetInvestingImage10 },
         { src: sunsetInvestingImage3 },
-        { src: sunsetInvestingImage4 }
+        { src: sunsetInvestingImage4 },
+        { src: sunsetInvestingImage7 },
+        { src: sunsetInvestingImage8 },
+        { src: sunsetInvestingImage9 },
+        { src: sunsetInvestingImage11 },
+        { src: sunsetInvestingImage6 },
+        { src: sunsetInvestingImage5 }
       ],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
@@ -52,8 +64,16 @@ export default function SoftwareProjects() {
       online: false,
       soloProject: true,
       visitLink: "#",
-      frontEndLink: "https://github.com/sean-hetzel/sunset-investing",
-      backEndLink: "https://github.com/sean-hetzel/sunset-investing-backend"
+      gitHubLinks: [
+        {
+          name: "Frontend GitHub",
+          url: "https://github.com/sean-hetzel/sunset-investing"
+        },
+        {
+          name: "Backend GitHub",
+          url: "https://github.com/sean-hetzel/sunset-investing-backend"
+        }
+      ]
     },
     {
       id: 2,
@@ -72,8 +92,16 @@ export default function SoftwareProjects() {
       online: true,
       soloProject: true,
       visitLink: "https://sean-hetzel.github.io/star-runner/#/",
-      frontEndLink: "https://github.com/sean-hetzel/star-runner",
-      backEndLink: "https://github.com/sean-hetzel/star-runner-backend"
+      gitHubLinks: [
+        {
+          name: "Frontend GitHub",
+          url: "https://github.com/sean-hetzel/star-runner"
+        },
+        {
+          name: "Backend GitHub",
+          url: "https://github.com/sean-hetzel/star-runner-backend"
+        }
+      ]
     },
     {
       id: 3,
@@ -94,8 +122,16 @@ export default function SoftwareProjects() {
       soloProject: true,
       visitLink:
         "https://sean-hetzel.github.io/adventure_archive_frontend/index.html",
-      frontEndLink: "https://github.com/sean-hetzel/adventure_archive_frontend",
-      backEndLink: "https://github.com/sean-hetzel/adventure_archive_backend"
+      gitHubLinks: [
+        {
+          name: "Frontend GitHub",
+          url: "https://github.com/sean-hetzel/adventure_archive_frontend"
+        },
+        {
+          name: "Backend GitHub",
+          url: "https://github.com/sean-hetzel/adventure_archive_backend"
+        }
+      ]
     },
     {
       id: 4,
@@ -108,8 +144,16 @@ export default function SoftwareProjects() {
       online: true,
       soloProject: true,
       visitLink: "https://sean-hetzel.github.io/cloneterest/",
-      frontEndLink: "https://github.com/sean-hetzel/cloneterest",
-      backEndLink: "https://github.com/sean-hetzel/cloneterest_backend"
+      gitHubLinks: [
+        {
+          name: "Frontend GitHub",
+          url: "https://github.com/sean-hetzel/cloneterest"
+        },
+        {
+          name: "Backend GitHub",
+          url: "https://github.com/sean-hetzel/cloneterest_backend"
+        }
+      ]
     },
     {
       id: 5,
@@ -125,8 +169,9 @@ export default function SoftwareProjects() {
         name: "Amin Aminamos",
         github: "https://github.com/aminamos"
       },
-      frontEndLink: "https://github.com/sean-hetzel/mod_2_project",
-      backEndLink: "#"
+      gitHubLinks: [
+        { name: "GitHub", url: "https://github.com/sean-hetzel/mod_2_project" }
+      ]
     },
     {
       id: 6,
@@ -148,9 +193,13 @@ export default function SoftwareProjects() {
         name: "Evan Carlsen",
         github: "https://github.com/evancarlsen"
       },
-      frontEndLink:
-        "https://github.com/evancarlsen/module-one-final-project-guidelines-seattle-web-062419",
-      backEndLink: "#"
+      gitHubLinks: [
+        {
+          name: "GitHub",
+          url:
+            "https://github.com/evancarlsen/module-one-final-project-guidelines-seattle-web-062419"
+        }
+      ]
     }
   ];
 
@@ -225,22 +274,18 @@ export default function SoftwareProjects() {
                   Visit
                 </a>
               ) : null}
-              <a
-                href={project.frontEndLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-outline-primary"
-              >
-                Frontend GitHub
-              </a>
-              <a
-                href={project.backEndLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-outline-primary"
-              >
-                Backend GitHub
-              </a>
+              {project.gitHubLinks.map(link => {
+                return (
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-primary"
+                  >
+                    {link.name}
+                  </a>
+                );
+              })}
             </div>
           </div>
         );

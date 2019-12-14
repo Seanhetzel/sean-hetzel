@@ -148,12 +148,12 @@ header {
 
 .lets-build {
   font-family: "Open-sans", sans-serif;
-  font-size: 18vw;
+  font-size: 12vw;
   font-weight: bold;
   letter-spacing: 0.1em;
   color: #00ffea;
   background: url(./images/pulse.gif) no-repeat;
-  background-size: 65vw;
+  background-size: 40vw;
   background-position: center;
   -webkit-background-clip: text;
   background-clip: "";
@@ -164,6 +164,14 @@ header {
   float: none;
   line-height: 1;
   padding-top: 50px;
+}
+
+.lets-build-div{
+  padding-top: 10vh;
+}
+
+.name-div{
+  padding-top: 10vh;
 }
 
 .page-title {
