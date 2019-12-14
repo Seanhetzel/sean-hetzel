@@ -1,16 +1,36 @@
 import React from "react";
 import { Gallery, GalleryImage } from "react-gesture-gallery";
 import wrenchIcon from "../images/wrench-icon-blue.png";
-import cloneterestImage from "../images/cloneterest-screenshot-2.PNG";
-import adventureArchiveImage from "../images/adventure-archive-screenshot-3.PNG";
-import starRunnerImage from "../images/star-runner-screenshot-2.PNG";
+
+import cloneterestImage2 from "../images/cloneterest-screenshot-2.PNG";
+import cloneterestImage3 from "../images/cloneterest-screenshot-3.PNG";
+
+import adventureArchiveImage3 from "../images/adventure-archive-screenshot-3.PNG";
+import adventureArchiveImage4 from "../images/adventure-archive-screenshot-4.PNG";
+import adventureArchiveImage5 from "../images/adventure-archive-screenshot-5.PNG";
+import adventureArchiveImage6 from "../images/adventure-archive-screenshot-6.PNG";
+import adventureArchiveImage7 from "../images/adventure-archive-screenshot-7.PNG";
+import adventureArchiveImage8 from "../images/adventure-archive-screenshot-8.PNG";
+
+import starRunnerImage2 from "../images/star-runner-screenshot-2.PNG";
+import starRunnerImage3 from "../images/star-runner-screenshot-3.PNG";
+import starRunnerImage4 from "../images/star-runner-screenshot-4.PNG";
+import starRunnerImage5 from "../images/star-runner-screenshot-5.PNG";
+import starRunnerImage6 from "../images/star-runner-screenshot-6.PNG";
+
 import sunsetInvestingImage2 from "../images/sunset-investing-screenshot-2.PNG";
 import sunsetInvestingImage3 from "../images/sunset-investing-screenshot-3.PNG";
 import sunsetInvestingImage4 from "../images/sunset-investing-screenshot-4.PNG";
 
-import Buzz5 from "../images/Buzz5.png";
+import Buzz2 from "../images/Buzz2.png";
+import Buzz4 from "../images/Buzz4.png";
 import Buzz8 from "../images/Buzz8.png";
-import Mars3 from "../images/Mars3.png";
+import Buzz9 from "../images/Buzz9.png";
+
+import Mars2 from "../images/Mars2.png";
+import Mars10 from "../images/Mars10.png";
+import Mars4 from "../images/Mars4.png";
+import Mars6 from "../images/Mars6.png";
 import Mars9 from "../images/Mars9.png";
 
 export default function SoftwareProjects() {
@@ -38,7 +58,13 @@ export default function SoftwareProjects() {
     {
       id: 2,
       name: "STAR RUNNER",
-      images: [{ src: starRunnerImage }, { src: starRunnerImage }],
+      images: [
+        { src: starRunnerImage5 },
+        { src: starRunnerImage2 },
+        { src: starRunnerImage3 },
+        { src: starRunnerImage4 },
+        { src: starRunnerImage6 }
+      ],
       description:
         "80s inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
       tech: "React, Phaser, Ion Phaser, Rails",
@@ -52,7 +78,14 @@ export default function SoftwareProjects() {
     {
       id: 3,
       name: "Adventure Archive",
-      images: [{ src: adventureArchiveImage }, { src: adventureArchiveImage }],
+      images: [
+        { src: adventureArchiveImage3 },
+        { src: adventureArchiveImage4 },
+        { src: adventureArchiveImage5 },
+        { src: adventureArchiveImage7 },
+        { src: adventureArchiveImage8 },
+        { src: adventureArchiveImage6 }
+      ],
       description:
         "Platform where users can share archaeological sites and amazing places. Its sorta like Reddit because its a discussion platform for sharing/talking about archaeological sites and sorta like Instagram because users can scroll through sites and leave comments much like Instagram.",
       tech: "Rails, JavaScript",
@@ -67,7 +100,7 @@ export default function SoftwareProjects() {
     {
       id: 4,
       name: "C L O N E T E R E S T",
-      images: [{ src: cloneterestImage }, { src: cloneterestImage }],
+      images: [{ src: cloneterestImage2 }, { src: cloneterestImage3 }],
       description:
         "Idea board for images much like Pinterest where users can add, like and delete pins. The Pins are organized in a masonry layout.",
       tech: "Rails, JavaScript",
@@ -81,7 +114,7 @@ export default function SoftwareProjects() {
     {
       id: 5,
       name: "Personality Quiz",
-      images: [{ src: Buzz5 }, { src: Buzz8 }],
+      images: [{ src: Buzz8 }, { src: Buzz4 }, { src: Buzz2 }, { src: Buzz9 }],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
       tech: "Rails",
@@ -98,7 +131,13 @@ export default function SoftwareProjects() {
     {
       id: 6,
       name: "Mars Rover Photos",
-      images: [{ src: Mars3 }, { src: Mars9 }],
+      images: [
+        { src: Mars2 },
+        { src: Mars4 },
+        { src: Mars9 },
+        { src: Mars6 },
+        { src: Mars10 }
+      ],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
       tech: "Ruby, NASA API",
