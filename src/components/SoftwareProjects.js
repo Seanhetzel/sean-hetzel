@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollableAnchor from "react-scrollable-anchor";
 import ImageGallery from "react-image-gallery";
 import wrenchIcon from "../images/wrench-icon-blue.png";
 import defaultImg from "../images/temp-pic.jpg";
@@ -31,7 +32,7 @@ import sunsetInvestingImage11 from "../images/sunset-investing-screenshot-11.PNG
 
 import Buzz2 from "../images/Buzz2.png";
 import Buzz4 from "../images/Buzz4.png";
-import Buzz7 from "../images/Buzz7.png"
+import Buzz7 from "../images/Buzz7.png";
 import Buzz8 from "../images/Buzz8.png";
 import Buzz9 from "../images/Buzz9.png";
 
@@ -213,8 +214,10 @@ export default function SoftwareProjects() {
   ];
 
   return (
-    <div id="software">
-      <h1 className="page-title centered">SOFTWARE PROJECTS</h1>
+    <>
+      <ScrollableAnchor id={"software"}>
+        <h1 className="page-title centered">SOFTWARE PROJECTS</h1>
+      </ScrollableAnchor>
       {softwareData.map(project => {
         return (
           <div className="project-card">
@@ -277,6 +280,6 @@ export default function SoftwareProjects() {
           </div>
         );
       })}
-    </div>
+    </>
   );
 }

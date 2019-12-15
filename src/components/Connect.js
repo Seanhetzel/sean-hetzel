@@ -1,10 +1,13 @@
 import React from "react";
+import ScrollableAnchor from "react-scrollable-anchor";
 import resume from "../images/sean-hetzel-resume.pdf";
 
 function Connect() {
   return (
-    <div id="contact">
-      <h1 className="page-title centered">About Me</h1>
+    <div id="connect">
+      <ScrollableAnchor id={"contact"}>
+        <h1 className="page-title centered">About Me</h1>
+      </ScrollableAnchor>
       <p className="grey-text">
         I've always loved building things. I'm the creative type. I'll spend
         days coming up with a clever solution to fix a problem or automate a

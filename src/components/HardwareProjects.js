@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollableAnchor from "react-scrollable-anchor";
 import ImageGallery from "react-image-gallery";
 import wrenchIcon from "../images/wrench-icon-blue.png";
 import defaultImg from "../images/temp-pic.jpg";
@@ -53,7 +54,6 @@ import droneImage3 from "../images/20160512_185128.jpg";
 import droneImage4 from "../images/20160512_185625.jpg";
 
 export default function HardwareProjects() {
-
   const hardwareData = [
     {
       id: 1,
@@ -75,7 +75,10 @@ export default function HardwareProjects() {
         "Autodesk 123D Design, 3D printing, Arduino, Bluetooth control with an Android phone",
       finished: false,
       soloProject: true,
-      links: [{ name: "YouTube", url: "https://youtu.be/lyy9mVMGQ5w" }]
+      links: [
+        { name: "YouTube 1", url: "https://youtu.be/PJr8bjc1ncM" },
+        { name: "YouTube 2", url: "https://youtu.be/lyy9mVMGQ5w" }
+      ]
     },
     {
       id: 2,
@@ -116,8 +119,7 @@ export default function HardwareProjects() {
         { original: lightBoxImage10, thumbnail: lightBoxImage10 },
         { original: lightBoxImage11, thumbnail: lightBoxImage11 }
       ],
-      description:
-        `Laser cut desk light made for the University of Arizona bookstore. It's a décor peice that you can assemble, plug in, and put on your desk. The design is a synthwave inspired landscape of Tucson AZ with Mt. Lemmon in the background. I designed the pattern on the wood panels with Adobe Illustrator and outsourced the laser cutting to a small business in Phoenix AZ called the Leading Etch (because I don't have a laser cutter). Other components such as the custom printed circuit board, USB cables and cardboard boxes were sourced directly from Chinese manufacturures to minimize cost. I chose a blue LED because it looks cool, but it could be RGB and react to music or something with some upgrades. In order to use the school branding such as it's logo and "BearDown" slogan, licsensing was obtained. It retailed at the UA Bookstore for $25.`,
+      description: `Laser cut desk light made for the University of Arizona bookstore. It's a décor peice that you can assemble, plug in, and put on your desk. The design is a synthwave inspired landscape of Tucson AZ with Mt. Lemmon in the background. I designed the pattern on the wood panels with Adobe Illustrator and outsourced the laser cutting to a small business in Phoenix AZ called the Leading Etch (because I don't have a laser cutter). Other components such as the custom printed circuit board, USB cables and cardboard boxes were sourced directly from Chinese manufacturures to minimize cost. I chose a blue LED because it looks cool, but it could be RGB and react to music or something with some upgrades. In order to use the school branding such as it's logo and "BearDown" slogan, licsensing was obtained. It retailed at the UA Bookstore for $25.`,
       tech: "Adobe Illustrator, PCB design",
       finished: true,
       soloProject: true,
@@ -173,18 +175,20 @@ export default function HardwareProjects() {
         { original: droneImage3, thumbnail: droneImage3 },
         { original: droneImage4, thumbnail: droneImage4 }
       ],
-      description: "FPV drone with a mini fire extinguisher on its back. The idea being it could fly faster and put out small fires in hard to reach places before they got too big. It could be deployed from a fire truck and fly up to the roofs of buildings, power cables and put out small brush fires. It could also be used for recon and eyes in the sky. It had an FPV camera pointing down meaning you could put on some goggles and see what it sees. It can fly and is pretty stable. But finding a receiver with enough outputs was a challenge (6 motors and 1 for a servo to control the fire extinguisher valve).",
+      description:
+        "FPV drone with a mini fire extinguisher on its back. The idea being it could fly faster and put out small fires in hard to reach places before they got too big. It could be deployed from a fire truck and fly up to the roofs of buildings, power cables and put out small brush fires. It could also be used for recon and eyes in the sky. It had an FPV camera pointing down meaning you could put on some goggles and see what it sees. It can fly and is pretty stable. But finding a receiver with enough outputs was a challenge (6 motors and 1 for a servo to control the fire extinguisher valve).",
       tech: "Cleanflight, basic drone stuff",
       finished: false,
       soloProject: true,
-      links: []
+      links: [{ name: "YouTube", url: "https://youtu.be/gJsW0B7UBVc" }]
     }
   ];
 
   return (
-    
-    <div id="hardware">
-      <h1 className="page-title centered">HARDWARE PROJECTS</h1>
+    <>
+      <ScrollableAnchor id={"hardware"}>
+        <h1 className="page-title centered">HARDWARE PROJECTS</h1>
+      </ScrollableAnchor>
       {hardwareData.map(project => {
         return (
           <div className="project-card">
@@ -237,6 +241,6 @@ export default function HardwareProjects() {
           </div>
         );
       })}
-    </div>
+    </>
   );
 }

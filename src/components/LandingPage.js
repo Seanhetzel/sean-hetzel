@@ -1,8 +1,9 @@
 import React from "react";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 function LandingPage() {
   return (
-    <div id="home">
+    <ScrollableAnchor id={"home"}>
       <div id="landing_page">
         <div className="lets-build-div">
           <h1 className="lets-build">LET'S BUILD</h1>
@@ -18,7 +19,7 @@ function LandingPage() {
           </div>
         </div>
       </div>
-    </div>
+    </ScrollableAnchor>
   );
 }
 export default LandingPage;
