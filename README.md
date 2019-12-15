@@ -1,8 +1,33 @@
+# Sean Hetzel
+
+A portfolio site for Sean Hetzel to showcase his software and hardware projects.
+
+https://seanhetzel.com
+
+![Sean Hetzel](sean-hetzel-screenshot.PNG)
+
+# Usage
+
+Look at stuff and contact Sean.
+
 # Attributions:
-1. Let's Build background GIF
-- Pi-Slices
+1. Let's Build background GIF <br>
+- Pi-Slices <br>
 - https://pislices.ca/
 
+2. Social Media Icons <br>
+- Ruandré Janse van Rensburg <br>
+- https://codepen.io/ruandre/pen/howFi
+
+# Support
+
+seanhetzel1@gmail.com
+
+# Contributing
+
+Nope.
+
+# Installation:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

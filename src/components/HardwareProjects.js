@@ -53,6 +53,7 @@ import droneImage3 from "../images/20160512_185128.jpg";
 import droneImage4 from "../images/20160512_185625.jpg";
 
 export default function HardwareProjects() {
+
   const hardwareData = [
     {
       id: 1,
@@ -181,6 +182,7 @@ export default function HardwareProjects() {
   ];
 
   return (
+    
     <>
       <h1 className="page-title centered">HARDWARE PROJECTS</h1>
       {hardwareData.map(project => {
