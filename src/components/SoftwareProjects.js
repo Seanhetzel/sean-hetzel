@@ -79,14 +79,14 @@ export default function SoftwareProjects() {
       id: 2,
       name: "STAR RUNNER",
       images: [
-        { original: starRunnerImage5, thumbnail: starRunnerImage5 },
         { original: starRunnerImage2, thumbnail: starRunnerImage2 },
         { original: starRunnerImage3, thumbnail: starRunnerImage3 },
         { original: starRunnerImage4, thumbnail: starRunnerImage4 },
+        { original: starRunnerImage5, thumbnail: starRunnerImage5 },
         { original: starRunnerImage6, thumbnail: starRunnerImage6 }
       ],
       description:
-        "80s inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
+        "80's inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
       tech: "React, Phaser, Ion Phaser, Rails",
       finished: false,
       online: true,
@@ -115,7 +115,7 @@ export default function SoftwareProjects() {
         { original: adventureArchiveImage6, thumbnail: adventureArchiveImage6 }
       ],
       description:
-        "Platform where users can share archaeological sites and amazing places. Its sorta like Reddit because its a discussion platform for sharing/talking about archaeological sites and sorta like Instagram because users can scroll through sites and leave comments much like Instagram.",
+        "Platform where users can share archaeological sites and amazing places. It's sorta like Reddit because its a discussion platform for sharing/talking about archaeological sites and sorta like Instagram because users can scroll through sites and leave comments much like Instagram.",
       tech: "Rails, JavaScript",
       finished: true,
       online: true,

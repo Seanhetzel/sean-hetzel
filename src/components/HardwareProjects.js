@@ -69,7 +69,7 @@ export default function HardwareProjects() {
         { original: mrButtersImage10, thumbnail: mrButtersImage10 },
         { original: mrButtersImage6, thumbnail: mrButtersImage6 }
       ],
-      description: `3D printed butter robot from Rick and Morty. Both his arms can move and he can look up and down. He has treads like in the show but I need to adjust the gear ratio and give him more power for him to be able to move. He has a speaker with the pre-programed line: "What is my purpose?" He can be fully controlled with any Android phone over bluetooth. Cramming all the electronics in such a small space was a fun design challenge.`,
+      description: `3D printed butter robot from Rick and Morty. I designed it and printed it with my 3D printer. Both his arms can move and he can look up and down. He has treads like in the show but I need to adjust the gear ratio and give him more power for him to be able to move. He has a speaker with the pre-programed line: "What is my purpose?" He can be fully controlled with any Android phone over bluetooth. Cramming all the electronics in such a small space was a fun design challenge.`,
       tech:
         "Autodesk 123D Design, 3D printing, Arduino, Bluetooth control with an Android phone",
       finished: false,
@@ -93,7 +93,7 @@ export default function HardwareProjects() {
         { original: poolSkimmerImage11, thumbnail: poolSkimmerImage11 }
       ],
       description:
-        "The hull is comprised of three seperate 3D printed sections that fit together. It has a distance sensor at the front, two electric motors at the back for propulsion, and four blue lights that blink and (would) look really cool at night above the water. It's designed to propel itself accross the surface of a pool and collect leaves. It would shut off one of it's motors when the distance sensor detects a wall in it's path, causing it to turn. The solar panel provides more than enough power, and it would tap into it's reserve battery when the sun went down. Only problem is, I never got it to float.. But if we overlook that catastrophic failure that renders it totally useless, I think it turned out pretty well.",
+        "The hull is comprised of three seperate 3D printed sections that fit together which I designed. It has a distance sensor at the front, two electric motors at the back for propulsion, and four blue lights that blink and (would) look really cool at night above the water. It's designed to propel itself across the surface of a pool and collect leaves. It would shut off one of its motors when the distance sensor detects a wall in its path, causing it to turn. The solar panel provides more than enough power, and it would tap into its reserve battery when the sun went down. Only problem is, I never got it to float.. But if we overlook that catastrophic failure that renders it totally useless, I think it turned out pretty well.",
       tech: "Autodesk 123D Design, 3D printing, Arduino",
       finished: false,
       soloProject: true,
@@ -116,7 +116,7 @@ export default function HardwareProjects() {
         { original: lightBoxImage11, thumbnail: lightBoxImage11 }
       ],
       description:
-        `Laser cut desk light made for the University of Arizona bookstore. It's a décor peice that you can assemble, plug in, and put on your desk. The design is a synthwave inspired landscape of Tucson AZ with Mt. Lemmon in the background. I designed the pattern on the wood panels with Adobe Illustrator and outsourced laser cutting to a small business in Phoenix AZ called the Leading Etch (because I don't have a laser cutter). Other components such as the custom printed circuit board, USB cables and cardboard boxes were sourced directly from Chinese manufacturures to minimize cost. I chose a blue LED because it looks cool, but it could be RGB and react to music or something with some upgrades. In order to use the school branding such as it's logo and "BearDown" slogan, licsensing was obtained. It retailed at the UA Bookstore for $25.`,
+        `Laser cut desk light made for the University of Arizona bookstore. It's a décor peice that you can assemble, plug in, and put on your desk. The design is a synthwave inspired landscape of Tucson AZ with Mt. Lemmon in the background. I designed the pattern on the wood panels with Adobe Illustrator and outsourced the laser cutting to a small business in Phoenix AZ called the Leading Etch (because I don't have a laser cutter). Other components such as the custom printed circuit board, USB cables and cardboard boxes were sourced directly from Chinese manufacturures to minimize cost. I chose a blue LED because it looks cool, but it could be RGB and react to music or something with some upgrades. In order to use the school branding such as it's logo and "BearDown" slogan, licsensing was obtained. It retailed at the UA Bookstore for $25.`,
       tech: "Adobe Illustrator, PCB design",
       finished: true,
       soloProject: true,
@@ -142,7 +142,7 @@ export default function HardwareProjects() {
         { original: automaticDoor4, thumbnail: automaticDoor4 }
       ],
       description:
-        "Bedroom door that opens when it detects someone walking towards it then closes and locks. There's a distance sensor on the walles both inside my bedroom and outside that are meant to blend in. It uses a linear actuator that can open the door in like 5 seconds. There's another linear motor thing inside the door where the knob used to be with a backup reserve battery as an override to open the door in case the power goes out. The whole thing is powered by a wall outlet.  I stopped working on it because it was too finicky and I got board. Turns out regular door knobs work pretty well after all.",
+        "Bedroom door that opens when it detects someone walking towards it then closes and locks. There's a distance sensor on the walles both inside my bedroom and outside that are meant to blend in. It uses a linear actuator that can open the door in 5 seconds. There's another linear motor thing inside the door where the knob used to be with a backup reserve battery as an override to open the door in case of power failure. The whole thing is powered by a wall outlet.  I stopped working on it because it was too finicky and I got board. Turns out regular door knobs work pretty well after all.",
       tech: "Arduino",
       finished: false,
       soloProject: true,
@@ -157,7 +157,7 @@ export default function HardwareProjects() {
         { original: tvOffImage2, thumbnail: tvOffImage2 }
       ],
       description:
-        "One of my old roommates used to leave the TV on all the time even when he wasn't in the room, which got really annoying. So I started building something that would automatically turn it off if no motion was detected in the room after a certain amount of time. I also designed a 3D printed housing for it. Only problem was, halfway through making it, I realized that there's no way to differentiate between sending on vs off singles (because it's just one button on the remote), which meant it would be constantly turning on and off the TV whenever nobody was in the room. So I stopped working on it.",
+        "One of my old roommates used to leave the TV on all the time even when he wasn't in the room, which got really annoying. So I started building something that would automatically turn it off if no motion was detected in the room after a certain amount of time. I also designed a 3D printed housing for it. Only problem was, halfway through making it, I realized that there's no way to differentiate between sending on vs off signals (because it's just one button on the remote), which meant it would be constantly turning on and off the TV whenever nobody was in the room. So I stopped working on it.",
       tech: "Arduino",
       finished: false,
       soloProject: true,
