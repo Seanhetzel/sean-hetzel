@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+// import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from "./components/NavBar";
@@ -9,9 +9,6 @@ import HardwareProjects from "./components/HardwareProjects";
 import Connect from "./components/Connect";
 
 class App extends Component {
-  constructor() {
-    super();
-  }
 
   render() {
     return (
