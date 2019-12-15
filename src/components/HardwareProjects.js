@@ -36,7 +36,7 @@ import lightBoxImage11 from "../images/ua-lamp-image-1.PNG";
 import lightBoxImage12 from "../images/DSC04153.JPG";
 import lightBoxImage13 from "../images/DSC04210.JPG";
 import lightBoxImage14 from "../images/DSC04395.JPG";
-import lightBoxImage15 from "../images/20191214_195311.jpg"
+import lightBoxImage15 from "../images/20191214_195311.jpg";
 
 import automaticDoor1 from "../images/20191214_160738.jpg";
 import automaticDoor2 from "../images/20191214_160745.jpg";
@@ -69,8 +69,7 @@ export default function HardwareProjects() {
         { original: mrButtersImage10, thumbnail: mrButtersImage10 },
         { original: mrButtersImage6, thumbnail: mrButtersImage6 }
       ],
-      description:
-        "After years of being lazy, I finally finished... MR BUTTERS! (Yes from Rick and Morty). JK hes not 100% finished yet and probably never will be. Everything is custom designed and 3d printed by me of course. The software is super basic cuz he just does whatever I command him to do with my phone.",
+      description: `3D printed butter robot from Rick and Morty. Both his arms can move and he can look up and down. He has treads like in the show but I need to adjust the gear ratio and give him more power for him to be able to move. He has a speaker with the pre-programed line: "What is my purpose?" He can be fully controlled with any Android phone over bluetooth. Cramming all the electronics in such a small space was a fun design challenge.`,
       tech:
         "Autodesk 123D Design, 3D printing, Arduino, Bluetooth control with an Android phone",
       finished: false,
@@ -94,7 +93,7 @@ export default function HardwareProjects() {
         { original: poolSkimmerImage11, thumbnail: poolSkimmerImage11 }
       ],
       description:
-        "This is a solar powered robot pool skimmer. The hull is comprised of three seperate 3d printed sections that fit together. It has a distance sensor at the front, two electric motors at the back for propulsion, and four blue lights that blink and (would) look really cool at night above the water. Only problem is, I never got it to float.. But if we overlook that catastrophic failure that renders it totally useless, I think it turned out pretty well.",
+        "The hull is comprised of three seperate 3D printed sections that fit together. It has a distance sensor at the front, two electric motors at the back for propulsion, and four blue lights that blink and (would) look really cool at night above the water. It's designed to propel itself accross the surface of a pool and collect leaves. It would shut off one of it's motors when the distance sensor detects a wall in it's path, causing it to turn. The solar panel provides more than enough power, and it would tap into it's reserve battery when the sun went down. Only problem is, I never got it to float.. But if we overlook that catastrophic failure that renders it totally useless, I think it turned out pretty well.",
       tech: "Autodesk 123D Design, 3D printing, Arduino",
       finished: false,
       soloProject: true,
@@ -117,9 +116,9 @@ export default function HardwareProjects() {
         { original: lightBoxImage11, thumbnail: lightBoxImage11 }
       ],
       description:
-        "This is a laser cut desk light that I made for the University of Arizona bookstore. Its just something that you assemble, plug in and put on your desk as a décor piece. Everything from the PCB to the packaging is designed by me of course. I probably spent over 200 hours designing, problem solving and manufacturing 200 units and I even got it on store shelves. ",
+        `Laser cut desk light made for the University of Arizona bookstore. It's a décor peice that you can assemble, plug in, and put on your desk. The design is a synthwave inspired landscape of Tucson AZ with Mt. Lemmon in the background. I designed the pattern on the wood panels with Adobe Illustrator and outsourced laser cutting to a small business in Phoenix AZ called the Leading Etch (because I don't have a laser cutter). Other components such as the custom printed circuit board, USB cables and cardboard boxes were sourced directly from Chinese manufacturures to minimize cost. I chose a blue LED because it looks cool, but it could be RGB and react to music or something with some upgrades. In order to use the school branding such as it's logo and "BearDown" slogan, licsensing was obtained. It retailed at the UA Bookstore for $25.`,
       tech: "Adobe Illustrator, PCB design",
-      finished: false,
+      finished: true,
       soloProject: true,
       links: [
         {
@@ -143,7 +142,7 @@ export default function HardwareProjects() {
         { original: automaticDoor4, thumbnail: automaticDoor4 }
       ],
       description:
-        "Bedroom door that opens when it detects someone walking towards it then closes and locks.",
+        "Bedroom door that opens when it detects someone walking towards it then closes and locks. There's a distance sensor on the walles both inside my bedroom and outside that are meant to blend in. It uses a linear actuator that can open the door in like 5 seconds. There's another linear motor thing inside the door where the knob used to be with a backup reserve battery as an override to open the door in case the power goes out. The whole thing is powered by a wall outlet.  I stopped working on it because it was too finicky and I got board. Turns out regular door knobs work pretty well after all.",
       tech: "Arduino",
       finished: false,
       soloProject: true,
@@ -158,7 +157,7 @@ export default function HardwareProjects() {
         { original: tvOffImage2, thumbnail: tvOffImage2 }
       ],
       description:
-        "One of my old roommates used to leave the TV on all the time even when he wasn't in the room which got really annoying so I started building something that would turn it off if no motion was detected in the room after a certain amount of time. I even designed a fancy 3d printed housing for it. Only problem was, halfway through making it, I realized there's no way to differentiate sending an on vs off single which meant it would constantly be turning on and off the TV whenever nobody was in the room.",
+        "One of my old roommates used to leave the TV on all the time even when he wasn't in the room, which got really annoying. So I started building something that would automatically turn it off if no motion was detected in the room after a certain amount of time. I also designed a 3D printed housing for it. Only problem was, halfway through making it, I realized that there's no way to differentiate between sending on vs off singles (because it's just one button on the remote), which meant it would be constantly turning on and off the TV whenever nobody was in the room. So I stopped working on it.",
       tech: "Arduino",
       finished: false,
       soloProject: true,
@@ -173,7 +172,7 @@ export default function HardwareProjects() {
         { original: droneImage3, thumbnail: droneImage3 },
         { original: droneImage4, thumbnail: droneImage4 }
       ],
-      description: "FPV drone with a mini fire extinguisher on its back.",
+      description: "FPV drone with a mini fire extinguisher on its back. The idea being it could fly faster and put out small fires in hard to reach places before they got too big. It could be deployed from a fire truck and fly up to the roofs of buildings, power cables and put out small brush fires. It could also be used for recon and eyes in the sky. It had an FPV camera pointing down meaning you could put on some goggles and see what it sees. It can fly and is pretty stable. But finding a receiver with enough outputs was a challenge (6 motors and 1 for a servo to control the fire extinguisher valve).",
       tech: "Cleanflight, basic drone stuff",
       finished: false,
       soloProject: true,
