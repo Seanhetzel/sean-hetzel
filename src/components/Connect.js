@@ -14,11 +14,9 @@ function Connect() {
         that function and design are equally important. I'll learn whatever I
         need to learn to achieve the desired result. If I set my mind on
         something, I’ll find a way to make it happen. I'm not one to stick to
-        tradition or hold on to my pre-conceived notions. I'm very
-        entrepreneurial. I understand and appreciate economics and the business
-        side of things too. I reason by first principles. I value an open mind,
-        a positive attitude and new ideas. Let's building something incredible
-        and make the world a better place.
+        tradition or hold on to my pre-conceived notions. I reason by first
+        principles. I value an open mind, a positive attitude and new ideas.
+        Let's building something incredible and make the world a better place.
       </p>
       <h1 className="page-title centered">Let's Connect</h1>
 

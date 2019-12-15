@@ -160,7 +160,7 @@ export default function SoftwareProjects() {
       name: "Personality Quiz",
       images: [{ src: Buzz8 }, { src: Buzz4 }, { src: Buzz2 }, { src: Buzz9 }],
       description:
-        "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
+        "Personality quiz similar to a buzzfeed quiz where users can choose from four quizes, answer questions and get a recommendation at the end based on their responses. Users can create and account and login with full authentication.",
       tech: "Rails",
       finished: true,
       online: false,
@@ -184,7 +184,7 @@ export default function SoftwareProjects() {
         { src: Mars10 }
       ],
       description:
-        "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
+        "CLI app that pulls random photos from the NASA API taken by the Martian rovers. Users can play a guessing game and guess the rover and type of camera when presented with a random photo. Users can also see random photos and save them, and see their favorites.",
       tech: "Ruby, NASA API",
       finished: true,
       online: false,
