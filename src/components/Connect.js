@@ -3,7 +3,7 @@ import resume from "../images/sean-hetzel-resume.pdf";
 
 function Connect() {
   return (
-    <div className="about">
+    <div id="contact">
       <h1 className="page-title centered">About Me</h1>
       <p className="grey-text">
         I've always loved building things. I'm the creative type. I'll spend

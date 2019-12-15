@@ -69,10 +69,19 @@ header {
   
 }
 
+header{
+  z-index: 10;
+}
+
 .nav-btn{
     display: inline;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.nav-btn:hover{
+  color: black;
 }
 
 .btn {
@@ -365,7 +374,7 @@ header {
   width: 25vw;
 }
 
-.about {
+#contact {
   margin: 10vw 10vw 10vw 10vw;
 }
 

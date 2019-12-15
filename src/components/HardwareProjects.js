@@ -183,7 +183,7 @@ export default function HardwareProjects() {
 
   return (
     
-    <>
+    <div id="hardware">
       <h1 className="page-title centered">HARDWARE PROJECTS</h1>
       {hardwareData.map(project => {
         return (
@@ -237,6 +237,6 @@ export default function HardwareProjects() {
           </div>
         );
       })}
-    </>
+    </div>
   );
 }

@@ -213,7 +213,7 @@ export default function SoftwareProjects() {
   ];
 
   return (
-    <>
+    <div id="software">
       <h1 className="page-title centered">SOFTWARE PROJECTS</h1>
       {softwareData.map(project => {
         return (
@@ -277,6 +277,6 @@ export default function SoftwareProjects() {
           </div>
         );
       })}
-    </>
+    </div>
   );
 }
