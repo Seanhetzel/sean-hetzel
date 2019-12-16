@@ -10,9 +10,14 @@ a {
   color: #00ffea;
 }
 
+.hov:hover,
 a:hover {
-  color: #00cebd;
+  color: #00afa1;
   text-decoration: none;
+}
+
+.hov:hover {
+  fill: #00afa1;
 }
 
 .card-link:hover {
@@ -22,35 +27,6 @@ a:hover {
 .title {
   letter-spacing: 0.5em;
   color: black;
-}
-
-.header-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #00ffea;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-.header-li {
-  float: left;
-}
-
-.header-li .header-a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 4px 16px;
-  text-decoration: none;
-}
-
-.active {
-  color: #00ffea;
-  background-color: grey;
 }
 
 header {
@@ -79,7 +55,7 @@ header {
 }
 
 .nav-btn:hover {
-  color: black;
+  color: #005a53;
 }
 
 .btn {
@@ -107,8 +83,8 @@ header {
 
 .btn-primary:hover {
   color: #202020;
-  background-color: #00cebd;
-  border-color: #00cebd;
+  background-color: #00afa1;
+  border-color: #00afa1;
 }
 
 .card-title {

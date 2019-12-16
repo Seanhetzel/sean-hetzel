@@ -232,6 +232,7 @@ export default function HardwareProjects() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary"
+                    title={link.name}
                   >
                     {link.name}
                   </a>

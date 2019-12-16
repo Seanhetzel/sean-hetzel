@@ -10,7 +10,7 @@ import Connect from "./components/Connect";
 
 class App extends Component {
   render() {
-    configureAnchors({ scrollDuration: 500 });
+    configureAnchors({ scrollDuration: 1000 });
     return (
       <>
         <NavBar />

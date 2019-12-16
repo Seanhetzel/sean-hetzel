@@ -243,6 +243,7 @@ export default function SoftwareProjects() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="card-link"
+                    title={project.teammate.name}
                   >
                     {project.teammate.name}
                   </a>
@@ -260,6 +261,7 @@ export default function SoftwareProjects() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
+                  title="Visit"
                 >
                   Visit
                 </a>
@@ -271,6 +273,7 @@ export default function SoftwareProjects() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline-primary"
+                    title={link.name}
                   >
                     {link.name}
                   </a>

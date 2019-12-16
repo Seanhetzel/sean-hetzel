@@ -26,7 +26,7 @@ function Connect() {
       <ul className="soc">
         <li>
           <a
-            className="icon-28 youtube"
+            className="icon-28 youtube hov"
             href="https://www.youtube.com/channel/UCnAeHxUezq50j_HcjdJ4LIg"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,7 +41,7 @@ function Connect() {
         </li>
         <li>
           <a
-            className="icon-15 instagram"
+            className="icon-15 instagram hov"
             href="https://www.instagram.com/hetzelsean/"
             target="_blank"
             rel="noopener noreferrer"
@@ -58,7 +58,7 @@ function Connect() {
         </li>
         <li>
           <a
-            className="icon-13 github"
+            className="icon-13 github hov"
             href="https://github.com/sean-hetzel"
             target="_blank"
             rel="noopener noreferrer"
@@ -73,7 +73,7 @@ function Connect() {
         </li>
         <li>
           <a
-            className="icon-17 linkedin"
+            className="icon-17 linkedin hov"
             href="https://www.linkedin.com/in/sean-hetzel-983a94175"
             target="_blank"
             rel="noopener noreferrer"
@@ -88,7 +88,7 @@ function Connect() {
         </li>
         <li>
           <a
-            className="icon-8 email"
+            className="icon-8 email hov"
             href="mailto:seanhetzel1@gmail.com"
             target="_top"
             rel="noopener noreferrer"
@@ -105,7 +105,9 @@ function Connect() {
       <div className="num-res">
         <h4 className="page-title res-num-info">(425) 408-2068</h4>
         <a href={resume}>
-          <h4 className="page-title res-num-info">RESUME </h4>
+          <h4 className="page-title res-num-info hov" title="Resume">
+            RESUME{" "}
+          </h4>
         </a>
       </div>
     </div>
