@@ -19,8 +19,8 @@ https://pislices.ca/
 Ruandré Janse van Rensburg <br>
 https://codepen.io/ruandre/pen/howFi
 
-3. Mouse scroll indicator
-Ash Bryant
+3. Mouse scroll indicator <br>
+Ash Bryant <br>
 https://codepen.io/ashbryant/pen/JCHar
 
 # Support
