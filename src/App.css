@@ -818,6 +818,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 1200px) {
+  #root{
+    width: 100vw;
+  }
+
   body {
     background-color: black;
   }
