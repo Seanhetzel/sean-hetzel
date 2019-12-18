@@ -116,7 +116,7 @@ export default function SoftwareProjects() {
         { original: adventureArchiveImage6, thumbnail: adventureArchiveImage6 }
       ],
       description:
-        "Platform where users can share archaeological sites and amazing places. It's sorta like Reddit because its a discussion platform for sharing/talking about archaeological sites and sorta like Instagram because users can scroll through sites and leave comments much like Instagram.",
+        "Platform where users can share archaeological sites and amazing places. It's sorta like Reddit because it's a discussion platform for sharing/talking about archaeological sites and sorta like Instagram because users can scroll through sites and leave comments, much like Instagram.",
       tech: "Rails, JavaScript",
       finished: true,
       online: true,
@@ -170,7 +170,7 @@ export default function SoftwareProjects() {
         { original: Buzz9, thumbnail: Buzz9 }
       ],
       description:
-        "Personality quiz similar to a buzzfeed quiz where users can choose from four quizes, answer questions and get a recommendation at the end based on their responses. Users can create and account and login with full authentication.",
+        "Personality quiz similar to a buzzfeed quiz where users can choose from four quizzes, answer questions and get a recommendation at the end, based on their responses. Users can create and account and login with full authentication.",
       tech: "Rails",
       finished: true,
       online: false,
