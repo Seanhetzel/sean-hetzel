@@ -1,8 +1,9 @@
 import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
+// import mediumLogo from "../images/medium-logo.png";
 import resume from "../images/sean-hetzel-resume.pdf";
 
-function Connect() {
+export default function Connect() {
   return (
     <div id="connect">
       <ScrollableAnchor id={"contact"}>
@@ -101,11 +102,28 @@ function Connect() {
             </div>
           </a>
         </li>
+        {/* <li>
+          <a
+            className="icon-8 medium hov"
+            href="https://medium.com/@seanhetzel1"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Medium"
+          >
+            <div className="ir">
+              <img src={mediumLogo} alt="Medium" />
+            </div>
+          </a>
+        </li> */}
       </ul>
       <div className="num-res">
         <h4 className="page-title res-num-info">(425) 408-2068</h4>
         <a href={resume}>
-          <h4 className="page-title res-num-info hov" title="Resume">
+          <h4
+            className="page-title res-num-info hov"
+            id="resume"
+            title="Resume"
+          >
             RESUME{" "}
           </h4>
         </a>
@@ -113,5 +131,3 @@ function Connect() {
     </div>
   );
 }
-
-export default Connect;

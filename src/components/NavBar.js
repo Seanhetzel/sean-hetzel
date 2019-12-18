@@ -1,8 +1,8 @@
 import React from "react";
 
-function NavBar() {
+export default function NavBar() {
   return (
-    <header>
+    <div className="nav-bar">
       <a className="title nav-btn" href="#home">
         HOME
       </a>
@@ -15,8 +15,6 @@ function NavBar() {
       <a className="title nav-btn" href="#contact">
         CONTACT
       </a>
-    </header>
+    </div>
   );
 }
-
-export default NavBar;

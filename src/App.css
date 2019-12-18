@@ -29,7 +29,7 @@ a:hover {
   color: black;
 }
 
-header {
+.nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 5px;
@@ -39,11 +39,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
   text-align: center;
-}
-
-header {
   z-index: 10;
 }
 
@@ -94,10 +90,6 @@ header {
 
 .grey-text {
   color: #a1a1a1;
-}
-
-.header {
-  background: #00ffea;
 }
 
 #landing_page {
@@ -344,7 +336,6 @@ header {
   position: absolute;
   display: inline-block;
   margin-left: 5vw;
-  margin-top: 0vw;
   width: 25vw;
 }
 
@@ -823,5 +814,72 @@ header {
   .image-gallery-index {
     font-size: 0.8em;
     padding: 5px 10px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: black;
+  }
+
+  .nav-bar {
+    top: 90vh;
+    padding-top: 10px;
+    padding-bottom: 100px;
+  }
+  
+  .nav-btn {
+    display: inline;
+    letter-spacing: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 14pt;
+  }
+
+  .lets-build {
+    font-size: 20vw;
+    background-size: 70vw;
+    padding-top: 1em;
+  }
+
+  .mouse-scroll {
+    display: none;
+  }
+
+  .project-card {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .gallery {
+    width: 90vw;
+  }
+
+  .project-info {
+    position: relative;
+    display: block;
+    margin-left: 0vw;
+    margin-top: 1em;
+    width: 90vw;
+  }
+
+  #connect {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .soc a {
+    position: relative;
+    height: 40px;
+    height: 7rem;
+    width: 40px;
+    width: 7rem;
+  }
+  
+  .res-num-info {
+    display: block;
+    margin: 0em;
+    padding: 1em;
   }
 }

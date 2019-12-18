@@ -1,7 +1,7 @@
 import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 
-function LandingPage() {
+export default function LandingPage() {
   return (
     <ScrollableAnchor id={"home"}>
       <div id="landing_page">
@@ -22,4 +22,3 @@ function LandingPage() {
     </ScrollableAnchor>
   );
 }
-export default LandingPage;
