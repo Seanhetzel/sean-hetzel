@@ -118,7 +118,9 @@ export default function Connect() {
       </ul>
       <div className="num-res">
         <h4 className="page-title res-num-info">(425) 408-2068</h4>
-        <a href={resume}>
+        <a href={resume}  target="_blank"
+            rel="noopener noreferrer">
+          
           <h4
             className="page-title res-num-info hov"
             id="resume"
