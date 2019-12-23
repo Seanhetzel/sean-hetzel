@@ -145,7 +145,7 @@ export default function HardwareProjects() {
         { original: automaticDoor4, thumbnail: automaticDoor4 }
       ],
       description:
-        "Bedroom door that opens when it detects someone walking towards it then closes and locks. There's a distance sensor on the walls both inside my bedroom and outside that are meant to blend in. It uses a linear actuator that can open the door in 5 seconds. There's another linear motor thing inside the door where the knob used to be with a backup reserve battery as an override to open the door in case of power failure. The whole thing is powered by a wall outlet.  I stopped working on it because it was too finicky and I got bored. Turns out regular door knobs work pretty well after all.",
+        "Bedroom door that opens when it detects someone walking towards it then closes and locks. There's a distance sensor on the walls both inside my bedroom and outside that are meant to blend in. It uses a linear actuator that can open the door in 5 seconds. There's a solenoid motor inside the door where the knob used to be with a backup reserve battery as an override to open the door in case of power failure. The whole thing is powered by a wall outlet.  I stopped working on it because it was too finicky and I got bored. Turns out regular door knobs work pretty well after all.",
       tech: "Arduino",
       finished: false,
       soloProject: true,
