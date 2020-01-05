@@ -886,3 +886,7 @@ a:hover {
     font-size: 14pt;
   }
 }
+
+button:focus {outline:0;}
+input:focus {outline: 0;}
+a:focus {outline: 0;}
