@@ -89,7 +89,7 @@ export default function SoftwareProjects() {
       description:
         "80's inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
       tech: "React, Phaser, Ion Phaser, Rails",
-      finished: false,
+      finished: true,
       online: true,
       soloProject: true,
       visitLink: "https://sean-hetzel.github.io/star-runner/#/",
@@ -227,6 +227,7 @@ export default function SoftwareProjects() {
                 slideDuration={200}
                 showPlayButton={false}
                 defaultImage={defaultImg}
+                disableArrowKeys={true}
               />
             </div>
             <div className="project-info">

@@ -198,6 +198,7 @@ export default function HardwareProjects() {
                 slideDuration={200}
                 showPlayButton={false}
                 defaultImage={defaultImg}
+                disableArrowKeys={true}
               />
             </div>
             <div className="project-info">
