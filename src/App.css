@@ -32,7 +32,7 @@ a:hover {
 .nav-bar {
   list-style-type: none;
   margin: 0;
-  padding: 5px;
+  padding: 10px;
   overflow: hidden;
   background-color: #00ffea;
   color: black;
@@ -823,7 +823,7 @@ a:hover {
   }
 
   .nav-bar {
-    top: 90vh;
+    top: 94vh;
     padding-top: 10px;
     padding-bottom: 500px;
   }
@@ -868,22 +868,32 @@ a:hover {
   #connect {
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-bottom: 25em;
+    margin-bottom: 10em;
   }
 
   .soc a {
     position: relative;
     height: 40px;
-    height: 7rem;
-    width: 40px;
-    width: 7rem;
+    height: 2rem;
+    width: 80px;
+    width: 5rem;
+  }
+
+  .soc {
+    padding: 0px;
+    margin-right: 0px;
   }
 
   .res-num-info {
     display: block;
-    margin: 0em;
-    padding: 1em;
+    margin: 1em;
+    padding: 0em;
+    padding-top: 1em;
     font-size: 14pt;
+  }
+
+  html, body {
+    overflow-x: hidden;
   }
 }
 

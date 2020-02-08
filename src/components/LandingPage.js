@@ -10,7 +10,7 @@ export default function LandingPage() {
         </div>
         <div className="name-div">
           <h1 className="title centered">SEAN HETZEL</h1>
-          <h4 className="title centered">Full Stack Developer</h4>
+          <h4 className="title centered">SOFTWARE DEVELOPER</h4>
 
           <div className="mouse-scroll">
             <span className="mouse">
