@@ -56,7 +56,7 @@ export default function SoftwareProjects() {
         { original: sunsetInvestingImage9, thumbnail: sunsetInvestingImage9 },
         { original: sunsetInvestingImage11, thumbnail: sunsetInvestingImage11 },
         { original: sunsetInvestingImage6, thumbnail: sunsetInvestingImage6 },
-        { original: sunsetInvestingImage5, thumbnail: sunsetInvestingImage5 }
+        { original: sunsetInvestingImage5, thumbnail: sunsetInvestingImage5 },
       ],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
@@ -67,14 +67,16 @@ export default function SoftwareProjects() {
       visitLink: "https://sean-hetzel.github.io/sunset-investing/",
       gitHubLinks: [
         {
+          id: 1,
           name: "Frontend GitHub",
-          url: "https://github.com/sean-hetzel/sunset-investing"
+          url: "https://github.com/sean-hetzel/sunset-investing",
         },
         {
+          id: 2,
           name: "Backend GitHub",
-          url: "https://github.com/sean-hetzel/sunset-investing-backend"
-        }
-      ]
+          url: "https://github.com/sean-hetzel/sunset-investing-backend",
+        },
+      ],
     },
     {
       id: 2,
@@ -84,7 +86,7 @@ export default function SoftwareProjects() {
         { original: starRunnerImage3, thumbnail: starRunnerImage3 },
         { original: starRunnerImage4, thumbnail: starRunnerImage4 },
         { original: starRunnerImage5, thumbnail: starRunnerImage5 },
-        { original: starRunnerImage6, thumbnail: starRunnerImage6 }
+        { original: starRunnerImage6, thumbnail: starRunnerImage6 },
       ],
       description:
         "80's inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
@@ -95,14 +97,16 @@ export default function SoftwareProjects() {
       visitLink: "https://sean-hetzel.github.io/star-runner/#/",
       gitHubLinks: [
         {
+          id: 3,
           name: "Frontend GitHub",
-          url: "https://github.com/sean-hetzel/star-runner"
+          url: "https://github.com/sean-hetzel/star-runner",
         },
         {
+          id: 4,
           name: "Backend GitHub",
-          url: "https://github.com/sean-hetzel/star-runner-backend"
-        }
-      ]
+          url: "https://github.com/sean-hetzel/star-runner-backend",
+        },
+      ],
     },
     {
       id: 3,
@@ -113,7 +117,7 @@ export default function SoftwareProjects() {
         { original: adventureArchiveImage5, thumbnail: adventureArchiveImage5 },
         { original: adventureArchiveImage7, thumbnail: adventureArchiveImage7 },
         { original: adventureArchiveImage8, thumbnail: adventureArchiveImage8 },
-        { original: adventureArchiveImage6, thumbnail: adventureArchiveImage6 }
+        { original: adventureArchiveImage6, thumbnail: adventureArchiveImage6 },
       ],
       description:
         "Platform where users can share archaeological sites and amazing places. It's sorta like Reddit because it's a discussion platform for sharing/talking about archaeological sites and sorta like Instagram because users can scroll through sites and leave comments, much like Instagram.",
@@ -125,21 +129,23 @@ export default function SoftwareProjects() {
         "https://sean-hetzel.github.io/adventure_archive_frontend/index.html",
       gitHubLinks: [
         {
+          id: 5,
           name: "Frontend GitHub",
-          url: "https://github.com/sean-hetzel/adventure_archive_frontend"
+          url: "https://github.com/sean-hetzel/adventure_archive_frontend",
         },
         {
+          id: 6,
           name: "Backend GitHub",
-          url: "https://github.com/sean-hetzel/adventure_archive_backend"
-        }
-      ]
+          url: "https://github.com/sean-hetzel/adventure_archive_backend",
+        },
+      ],
     },
     {
       id: 4,
       name: "C L O N E T E R E S T",
       images: [
         { original: cloneterestImage2, thumbnail: cloneterestImage2 },
-        { original: cloneterestImage3, thumbnail: cloneterestImage3 }
+        { original: cloneterestImage3, thumbnail: cloneterestImage3 },
       ],
       description:
         "Idea board for images much like Pinterest where users can add, like and delete pins. The Pins are organized in a masonry layout.",
@@ -150,14 +156,16 @@ export default function SoftwareProjects() {
       visitLink: "https://sean-hetzel.github.io/cloneterest/",
       gitHubLinks: [
         {
+          id: 7,
           name: "Frontend GitHub",
-          url: "https://github.com/sean-hetzel/cloneterest"
+          url: "https://github.com/sean-hetzel/cloneterest",
         },
         {
+          id: 8,
           name: "Backend GitHub",
-          url: "https://github.com/sean-hetzel/cloneterest_backend"
-        }
-      ]
+          url: "https://github.com/sean-hetzel/cloneterest_backend",
+        },
+      ],
     },
     {
       id: 5,
@@ -167,7 +175,7 @@ export default function SoftwareProjects() {
         { original: Buzz4, thumbnail: Buzz4 },
         { original: Buzz7, thumbnail: Buzz7 },
         { original: Buzz2, thumbnail: Buzz2 },
-        { original: Buzz9, thumbnail: Buzz9 }
+        { original: Buzz9, thumbnail: Buzz9 },
       ],
       description:
         "Personality quiz similar to a buzzfeed quiz where users can choose from four quizzes, answer questions and get a recommendation at the end, based on their responses. Users can create and account and login with full authentication.",
@@ -177,11 +185,15 @@ export default function SoftwareProjects() {
       soloProject: false,
       teammate: {
         name: "Amin Aminamos",
-        github: "https://github.com/aminamos"
+        github: "https://github.com/aminamos",
       },
       gitHubLinks: [
-        { name: "GitHub", url: "https://github.com/sean-hetzel/mod_2_project" }
-      ]
+        {
+          id: 9,
+          name: "GitHub",
+          url: "https://github.com/sean-hetzel/mod_2_project",
+        },
+      ],
     },
     {
       id: 6,
@@ -191,7 +203,7 @@ export default function SoftwareProjects() {
         { original: Mars4, thumbnail: Mars4 },
         { original: Mars9, thumbnail: Mars9 },
         { original: Mars6, thumbnail: Mars6 },
-        { original: Mars10, thumbnail: Mars10 }
+        { original: Mars10, thumbnail: Mars10 },
       ],
       description:
         "CLI app that pulls random photos from the NASA API taken by the Martian rovers. Users can play a guessing game and guess the rover and type of camera when presented with a random photo. Users can also see random photos and save them, and see their favorites.",
@@ -201,16 +213,17 @@ export default function SoftwareProjects() {
       soloProject: false,
       teammate: {
         name: "Evan Carlsen",
-        github: "https://github.com/evancarlsen"
+        github: "https://github.com/evancarlsen",
       },
       gitHubLinks: [
         {
+          id: 10,
           name: "GitHub",
           url:
-            "https://github.com/evancarlsen/module-one-final-project-guidelines-seattle-web-062419"
-        }
-      ]
-    }
+            "https://github.com/evancarlsen/module-one-final-project-guidelines-seattle-web-062419",
+        },
+      ],
+    },
   ];
 
   return (
@@ -218,9 +231,9 @@ export default function SoftwareProjects() {
       <ScrollableAnchor id={"software"}>
         <h1 className="page-title centered">SOFTWARE PROJECTS</h1>
       </ScrollableAnchor>
-      {softwareData.map(project => {
+      {softwareData.map((project) => {
         return (
-          <div className="project-card">
+          <div key={project.id} className="project-card">
             <div className="gallery">
               <ImageGallery
                 items={project.images}
@@ -238,7 +251,7 @@ export default function SoftwareProjects() {
                 <p className="blue-text">Solo Project</p>
               ) : (
                 <p>
-                  Teammate:{" "}
+                  Teammate:
                   <a
                     href={project.teammate.github}
                     target="_blank"
@@ -267,9 +280,10 @@ export default function SoftwareProjects() {
                   Visit
                 </a>
               ) : null}
-              {project.gitHubLinks.map(link => {
+              {project.gitHubLinks.map((link) => {
                 return (
                   <a
+                    key={link.id}
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"

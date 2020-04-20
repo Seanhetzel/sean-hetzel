@@ -11,6 +11,8 @@ import Connect from "./components/Connect";
 class App extends Component {
   render() {
     configureAnchors({ scrollDuration: 1000 });
+    console.log("%c Sean Hetzel's Portfolio Site 🚀", "color: cyan");
+
     return (
       <>
         <NavBar />
