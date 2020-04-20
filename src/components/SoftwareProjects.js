@@ -60,7 +60,7 @@ export default function SoftwareProjects() {
       ],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
-      tech: "React, Bootstrap, Rails, JWT",
+      tech: "React, JavaScript, Bootstrap, Ruby on Rails, JWT, Heroku, PostgreSQL, HTML5, CSS3, Adobe Illustrator",
       finished: false,
       online: true,
       soloProject: true,
@@ -90,7 +90,7 @@ export default function SoftwareProjects() {
       ],
       description:
         "80's inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
-      tech: "React, Phaser, Ion Phaser, Rails",
+      tech: "React, Phaser, Ion Phaser, JavaScript, Ruby on Rails, Heroku, PostgreSQL, HTML5, CSS3, Adobe Illustrator",
       finished: true,
       online: true,
       soloProject: true,
@@ -121,7 +121,7 @@ export default function SoftwareProjects() {
       ],
       description:
         "Platform where users can share archaeological sites and amazing places. It's sorta like Reddit because it's a discussion platform for sharing/talking about archaeological sites and sorta like Instagram because users can scroll through sites and leave comments, much like Instagram.",
-      tech: "Rails, JavaScript",
+      tech: "JavaScript, Ruby on Rails, Heroku, PostgreSQL, HTML5, CSS3",
       finished: true,
       online: true,
       soloProject: true,
@@ -149,7 +149,7 @@ export default function SoftwareProjects() {
       ],
       description:
         "Idea board for images much like Pinterest where users can add, like and delete pins. The Pins are organized in a masonry layout.",
-      tech: "Rails, JavaScript",
+      tech: "JavaScript, Ruby on Rails, Heroku, PostgreSQL, HTML5, CSS3",
       finished: true,
       online: true,
       soloProject: true,
@@ -179,7 +179,7 @@ export default function SoftwareProjects() {
       ],
       description:
         "Personality quiz similar to a buzzfeed quiz where users can choose from four quizzes, answer questions and get a recommendation at the end, based on their responses. Users can create and account and login with full authentication.",
-      tech: "Rails",
+      tech: "Ruby on Rails, bcrypt, sqlite3, HTML5, CSS3",
       finished: true,
       online: false,
       soloProject: false,
@@ -207,7 +207,7 @@ export default function SoftwareProjects() {
       ],
       description:
         "CLI app that pulls random photos from the NASA API taken by the Martian rovers. Users can play a guessing game and guess the rover and type of camera when presented with a random photo. Users can also see random photos and save them, and see their favorites.",
-      tech: "Ruby, NASA API",
+      tech: "Ruby, sqlite3, NASA API",
       finished: true,
       online: false,
       soloProject: false,
