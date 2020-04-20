@@ -6,7 +6,7 @@ import NavBar from "./components/NavBar";
 import LandingPage from "./components/LandingPage";
 import SoftwareProjects from "./components/SoftwareProjects";
 import HardwareProjects from "./components/HardwareProjects";
-import Connect from "./components/Connect";
+import About from "./components/About";
 
 class App extends Component {
   render() {
@@ -19,7 +19,7 @@ class App extends Component {
         <LandingPage />
         <SoftwareProjects />
         <HardwareProjects />
-        <Connect />
+        <About />
       </>
     );
   }

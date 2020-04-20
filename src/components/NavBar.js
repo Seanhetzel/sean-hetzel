@@ -12,8 +12,8 @@ export default function NavBar() {
       <a className="title nav-btn" href="#hardware">
         HARDWARE
       </a>
-      <a className="title nav-btn" href="#contact">
-        CONTACT
+      <a className="title nav-btn" href="#about">
+        ABOUT ME
       </a>
     </div>
   );

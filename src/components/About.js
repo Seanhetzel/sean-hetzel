@@ -6,7 +6,7 @@ import resume from "../images/sean-hetzel-resume.pdf";
 export default function Connect() {
   return (
     <div id="connect">
-      <ScrollableAnchor id={"contact"}>
+      <ScrollableAnchor id={"about"}>
         <h1 className="page-title centered">About Me</h1>
       </ScrollableAnchor>
       <p className="grey-text">
