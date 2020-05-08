@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6ca15395ccbc51d6b320cd01a64cd23",
+    "revision": "c60b427aa9acf91824ca9b7042779322",
     "url": "/index.html"
   },
   {
-    "revision": "b7f861bb39257122f3c7",
+    "revision": "7ab79a70864d68363cd8",
     "url": "/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "eb02cefb52de3236f80e",
-    "url": "/static/css/main.f8576b96.chunk.css"
+    "revision": "5313f4afe0d6ad274dab",
+    "url": "/static/css/main.75fc04ce.chunk.css"
   },
   {
-    "revision": "b7f861bb39257122f3c7",
-    "url": "/static/js/2.b082cbe5.chunk.js"
+    "revision": "7ab79a70864d68363cd8",
+    "url": "/static/js/2.984f21ac.chunk.js"
   },
   {
     "revision": "8f0095dfcfa86e3532987f47e88a69df",
-    "url": "/static/js/2.b082cbe5.chunk.js.LICENSE"
+    "url": "/static/js/2.984f21ac.chunk.js.LICENSE"
   },
   {
-    "revision": "eb02cefb52de3236f80e",
-    "url": "/static/js/main.7f6d765a.chunk.js"
+    "revision": "5313f4afe0d6ad274dab",
+    "url": "/static/js/main.cd77bd4b.chunk.js"
   },
   {
     "revision": "42aaf7804b33dca9e6fc",
@@ -218,6 +218,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "071a5e98558aac4ffa777248715446a2",
     "url": "/static/media/adventure-archive-screenshot-8.071a5e98.PNG"
+  },
+  {
+    "revision": "c2fc076368601d63352225f11bb153b0",
+    "url": "/static/media/astral-nav-screenshot-1.c2fc0763.png"
+  },
+  {
+    "revision": "a4d3c2114b6e3ac555bf03b59d18b921",
+    "url": "/static/media/astral-nav-screenshot-2.a4d3c211.png"
   },
   {
     "revision": "79762207e396cd570ce2a58deff8287c",

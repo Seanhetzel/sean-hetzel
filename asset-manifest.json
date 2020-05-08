@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8576b96.chunk.css",
-    "main.js": "/static/js/main.7f6d765a.chunk.js",
-    "main.js.map": "/static/js/main.7f6d765a.chunk.js.map",
+    "main.css": "/static/css/main.75fc04ce.chunk.css",
+    "main.js": "/static/js/main.cd77bd4b.chunk.js",
+    "main.js.map": "/static/js/main.cd77bd4b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8e488376.js",
     "runtime-main.js.map": "/static/js/runtime-main.8e488376.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.b082cbe5.chunk.js": "/static/js/2.b082cbe5.chunk.js",
-    "static/js/2.b082cbe5.chunk.js.map": "/static/js/2.b082cbe5.chunk.js.map",
+    "static/js/2.984f21ac.chunk.js": "/static/js/2.984f21ac.chunk.js",
+    "static/js/2.984f21ac.chunk.js.map": "/static/js/2.984f21ac.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4554114b878d079ab83fc59b5d0560fa.js": "/precache-manifest.4554114b878d079ab83fc59b5d0560fa.js",
+    "precache-manifest.d23e733f756034b976831920425c51f8.js": "/precache-manifest.d23e733f756034b976831920425c51f8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.f8576b96.chunk.css.map": "/static/css/main.f8576b96.chunk.css.map",
-    "static/js/2.b082cbe5.chunk.js.LICENSE": "/static/js/2.b082cbe5.chunk.js.LICENSE",
+    "static/css/main.75fc04ce.chunk.css.map": "/static/css/main.75fc04ce.chunk.css.map",
+    "static/js/2.984f21ac.chunk.js.LICENSE": "/static/js/2.984f21ac.chunk.js.LICENSE",
     "static/media/20160512_185128.jpg": "/static/media/20160512_185128.51159636.jpg",
     "static/media/20160512_185153.jpg": "/static/media/20160512_185153.49a1dfa0.jpg",
     "static/media/20160512_185226.jpg": "/static/media/20160512_185226.ab286296.jpg",
@@ -62,6 +62,8 @@
     "static/media/adventure-archive-screenshot-6.PNG": "/static/media/adventure-archive-screenshot-6.a6e505a3.PNG",
     "static/media/adventure-archive-screenshot-7.PNG": "/static/media/adventure-archive-screenshot-7.0e300983.PNG",
     "static/media/adventure-archive-screenshot-8.PNG": "/static/media/adventure-archive-screenshot-8.071a5e98.PNG",
+    "static/media/astral-nav-screenshot-1.png": "/static/media/astral-nav-screenshot-1.c2fc0763.png",
+    "static/media/astral-nav-screenshot-2.png": "/static/media/astral-nav-screenshot-2.a4d3c211.png",
     "static/media/butter-robot-image-1.PNG": "/static/media/butter-robot-image-1.79762207.PNG",
     "static/media/butter-robot-image-2.PNG": "/static/media/butter-robot-image-2.63a369a7.PNG",
     "static/media/butter-robot-image-3.PNG": "/static/media/butter-robot-image-3.1907bf6a.PNG",
@@ -96,8 +98,8 @@
   "entrypoints": [
     "static/js/runtime-main.8e488376.js",
     "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.b082cbe5.chunk.js",
-    "static/css/main.f8576b96.chunk.css",
-    "static/js/main.7f6d765a.chunk.js"
+    "static/js/2.984f21ac.chunk.js",
+    "static/css/main.75fc04ce.chunk.css",
+    "static/js/main.cd77bd4b.chunk.js"
   ]
 }
