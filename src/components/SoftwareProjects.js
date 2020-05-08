@@ -42,10 +42,35 @@ import Mars4 from "../images/Mars4.png";
 import Mars6 from "../images/Mars6.png";
 import Mars9 from "../images/Mars9.png";
 
+import AstralNav1 from "../images/astral-nav-screenshot-1.png";
+import AstralNav2 from "../images/astral-nav-screenshot-2.png";
+
 export default function SoftwareProjects() {
   const softwareData = [
     {
       id: 1,
+      name: "Astral Nav",
+      images: [
+        { original: AstralNav1, thumbnail: AstralNav1 },
+        { original: AstralNav2, thumbnail: AstralNav2 },
+      ],
+      description:
+        "Cartographer that charts your voyage through the vast ocean of companies and guides you to your dream job. In other words, a job search tracker that documents your applications and interviews. This is my current side project and it's very much a work in progress. I realized this was a thing that needs to exist when I got tired of manually updating my Google Sheets every time I applied for a job. Astral Nav will automate much of the repetitive tasks associated with maintaining a job search spreadsheet and provide insights on how to improve your search.",
+      tech: "React, TypeScript, Formik, Node, HTML5, CSS3, Adobe Illustrator",
+      finished: false,
+      online: true,
+      soloProject: true,
+      visitLink: "https://astralnav.com",
+      gitHubLinks: [
+        {
+          id: 1,
+          name: "Frontend GitHub",
+          url: "https://github.com/sean-hetzel/astralnav",
+        },
+      ],
+    },
+    {
+      id: 2,
       name: "Sunset Investing",
       images: [
         { original: sunsetInvestingImage10, thumbnail: sunsetInvestingImage10 },
@@ -60,7 +85,8 @@ export default function SoftwareProjects() {
       ],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
-      tech: "React, JavaScript, Bootstrap, Ruby on Rails, JWT, Heroku, PostgreSQL, HTML5, CSS3, Adobe Illustrator",
+      tech:
+        "React, JavaScript, Bootstrap, Ruby on Rails, JWT, Heroku, PostgreSQL, HTML5, CSS3, Adobe Illustrator",
       finished: false,
       online: true,
       soloProject: true,
@@ -79,7 +105,7 @@ export default function SoftwareProjects() {
       ],
     },
     {
-      id: 2,
+      id: 3,
       name: "STAR RUNNER",
       images: [
         { original: starRunnerImage2, thumbnail: starRunnerImage2 },
@@ -90,7 +116,8 @@ export default function SoftwareProjects() {
       ],
       description:
         "80's inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
-      tech: "React, Phaser, Ion Phaser, JavaScript, Ruby on Rails, Heroku, PostgreSQL, HTML5, CSS3, Adobe Illustrator",
+      tech:
+        "React, Phaser, Ion Phaser, JavaScript, Ruby on Rails, Heroku, PostgreSQL, HTML5, CSS3, Adobe Illustrator",
       finished: true,
       online: true,
       soloProject: true,
@@ -109,7 +136,7 @@ export default function SoftwareProjects() {
       ],
     },
     {
-      id: 3,
+      id: 4,
       name: "Adventure Archive",
       images: [
         { original: adventureArchiveImage3, thumbnail: adventureArchiveImage3 },
@@ -141,7 +168,7 @@ export default function SoftwareProjects() {
       ],
     },
     {
-      id: 4,
+      id: 5,
       name: "C L O N E T E R E S T",
       images: [
         { original: cloneterestImage2, thumbnail: cloneterestImage2 },
@@ -168,7 +195,7 @@ export default function SoftwareProjects() {
       ],
     },
     {
-      id: 5,
+      id: 6,
       name: "Personality Quiz",
       images: [
         { original: Buzz8, thumbnail: Buzz8 },
@@ -196,7 +223,7 @@ export default function SoftwareProjects() {
       ],
     },
     {
-      id: 6,
+      id: 7,
       name: "Mars Rover Photos",
       images: [
         { original: Mars2, thumbnail: Mars2 },
