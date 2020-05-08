@@ -835,7 +835,7 @@ a:hover {
     margin-right: 7px;
     padding-bottom: 1em;
     font-weight: 600;
-    font-size: 13pt;
+    font-size: 12pt;
   }
 
   .lets-build {
@@ -844,17 +844,32 @@ a:hover {
     padding-top: 1em;
   }
 
+  #sean-hetzel{
+    font-size: 18pt;
+    margin-bottom: 1em;
+  }
+  #software-dev{
+    font-size: 12pt;
+  }
+
   .mouse-scroll {
     display: none;
+  }
+
+  .page-title{
+    padding-top: 2em;
+    padding-bottom: 1em;
   }
 
   .project-card {
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 5em;
   }
 
   .gallery {
-    width: 90vw;
+    margin-left: -5vw;
+    width: 100vw;
   }
 
   .project-info {
@@ -865,10 +880,14 @@ a:hover {
     width: 90vw;
   }
 
+  #my-summary{
+    margin-right: 5vw;
+  }
+
   #connect {
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-bottom: 10em;
+    margin-bottom: 8em;
   }
 
   .soc a {

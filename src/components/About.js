@@ -9,7 +9,7 @@ export default function Connect() {
       <ScrollableAnchor id={"about"}>
         <h1 className="page-title centered">About Me</h1>
       </ScrollableAnchor>
-      <p className="grey-text">
+      <p className="grey-text" id="my-summary">
         I've always loved building things. I'm the creative type. I'll spend
         days coming up with a clever solution to fix a problem or automate a
         boring task, just so I never have to do it again. I also enjoy building

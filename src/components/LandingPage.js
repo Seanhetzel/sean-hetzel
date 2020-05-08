@@ -9,8 +9,8 @@ export default function LandingPage() {
           <h1 className="lets-build">LET'S BUILD</h1>
         </div>
         <div className="name-div">
-          <h1 className="title centered">SEAN HETZEL</h1>
-          <h4 className="title centered">SOFTWARE DEVELOPER</h4>
+          <h1 className="title centered" id="sean-hetzel">SEAN HETZEL</h1>
+          <h4 className="title centered" id="software-dev">SOFTWARE DEVELOPER</h4>
 
           <div className="mouse-scroll">
             <span className="mouse">
