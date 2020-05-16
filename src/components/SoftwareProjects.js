@@ -56,7 +56,7 @@ export default function SoftwareProjects() {
       ],
       description:
         "Cartographer that charts your voyage through the vast ocean of companies and guides you to your dream job. In other words, a job search tracker that documents your applications and interviews. This is my current side project and it's very much a work in progress. I realized this was a thing that needs to exist when I got tired of manually updating my Google Sheets every time I applied for a job. Astral Nav will automate much of the repetitive tasks associated with maintaining a job search spreadsheet and provide insights on how to improve your search.",
-      tech: "React, TypeScript, Formik, Node, HTML5, CSS3, Adobe Illustrator",
+      tech: "React, TypeScript, Formik, Node, Express, MongoDB, HTML5, CSS3, Adobe Illustrator",
       finished: false,
       online: true,
       soloProject: true,
