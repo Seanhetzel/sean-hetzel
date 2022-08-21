@@ -85,8 +85,7 @@ export default function SoftwareProjects() {
       ],
       description:
         "Real estate investing platform where investors can buy/sell fractions of rental properties akin to buying stocks of companies. The advantages for buying just a fraction of rental properties are increased diversification and accessibility. You'll get a fraction of the rent and appreciation.",
-      tech:
-        "React, JavaScript, Bootstrap, Ruby on Rails, JWT, Heroku, PostgreSQL, HTML5, CSS3, Adobe Illustrator",
+      tech: "React, JavaScript, Bootstrap, Ruby on Rails, JWT, Heroku, PostgreSQL, HTML5, CSS3, Adobe Illustrator",
       finished: false,
       online: true,
       soloProject: true,
@@ -116,8 +115,7 @@ export default function SoftwareProjects() {
       ],
       description:
         "80's inspired space shooter game built with the Phaser game engine. Players fly through an asteroid field in a race against time. Do you have what it takes?",
-      tech:
-        "React, Phaser, Ion Phaser, JavaScript, Ruby on Rails, Heroku, PostgreSQL, HTML5, CSS3, Adobe Illustrator",
+      tech: "React, Phaser, Ion Phaser, JavaScript, Ruby on Rails, Heroku, PostgreSQL, HTML5, CSS3, Adobe Illustrator",
       finished: true,
       online: true,
       soloProject: true,
@@ -246,8 +244,7 @@ export default function SoftwareProjects() {
         {
           id: 10,
           name: "GitHub",
-          url:
-            "https://github.com/evancarlsen/module-one-final-project-guidelines-seattle-web-062419",
+          url: "https://github.com/evancarlsen/module-one-final-project-guidelines-seattle-web-062419",
         },
       ],
     },
@@ -278,7 +275,7 @@ export default function SoftwareProjects() {
                 <p className="blue-text">Solo Project</p>
               ) : (
                 <p>
-                  Teammate:
+                  Teammate:{" "}
                   <a
                     href={project.teammate.github}
                     target="_blank"

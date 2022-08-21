@@ -1,7 +1,7 @@
 import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 // import mediumLogo from "../images/medium-logo.png";
-import resume from "../images/sean-hetzel-resume.pdf";
+import resume from "../images/sean-hetzel-resume-2022.pdf";
 
 export default function Connect() {
   return (
@@ -17,10 +17,10 @@ export default function Connect() {
         group of friends to create something that has yet to exist. I believe
         that function and design are equally important. I'll learn whatever I
         need to learn to achieve the desired result. If I set my mind on
-        something, I’ll find a way to make it happen. I'm not one to stick to
+        something, I'll find a way to make it happen. I'm not one to stick to
         tradition or hold on to my pre-conceived notions. I reason by first
         principles. I value an open mind, a positive attitude and new ideas.
-        Let's building something incredible and make the world a better place.
+        Let's build something incredible and make the world a better place.
       </p>
       <h1 className="page-title centered">Let's Connect</h1>
 

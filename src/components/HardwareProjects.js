@@ -71,8 +71,7 @@ export default function HardwareProjects() {
         { original: mrButtersImage6, thumbnail: mrButtersImage6 },
       ],
       description: `3D printed butter robot from Rick and Morty. I designed it and printed it with my 3D printer. Both his arms can move and he can look up and down. He has treads like in the show but I need to adjust the gear ratio and give him more power for him to be able to move. He has a speaker with the pre-programmed line, "What is my purpose?" He can be fully controlled with any Android phone over bluetooth. Cramming all the electronics in such a small space was a fun design challenge.`,
-      tech:
-        "Autodesk 123D Design, 3D printing, Arduino, Bluetooth control with an Android phone",
+      tech: "Autodesk 123D Design, 3D printing, Arduino, Bluetooth control with an Android phone",
       finished: false,
       soloProject: true,
       links: [
@@ -132,8 +131,7 @@ export default function HardwareProjects() {
         {
           id: 4,
           name: "UA News",
-          url:
-            "https://eller.arizona.edu/news/2019/02/entrepreneurship-students-sell-products-ua-bookstore",
+          url: "https://eller.arizona.edu/news/2019/02/entrepreneurship-students-sell-products-ua-bookstore",
         },
       ],
     },
