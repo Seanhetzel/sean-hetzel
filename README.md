@@ -1,6 +1,6 @@
 # Sean Hetzel
 
-<a href="http://seanhetzel.com" rel="Sean Hetzel">![Foo](./public/sean-hetzel-screenshot-1.png)</a>
+<a href="http://seanhetzel.com" target="_blank" rel="Sean Hetzel">![Foo](./public/sean-hetzel-screenshot-1.png)</a>
 
 👉 https://seanhetzel.com
 
