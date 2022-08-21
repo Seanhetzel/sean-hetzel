@@ -4,7 +4,7 @@ A portfolio site for Sean Hetzel to showcase his software and hardware projects.
 
 https://seanhetzel.com
 
-![Sean Hetzel](./public/sean-hetzel-screenshot.png)
+![Sean Hetzel](./public/sean-hetzel-screenshot-1.png)
 
 # Usage
 
