@@ -4,46 +4,46 @@ import ImageGallery from "react-image-gallery";
 import wrenchIcon from "../images/wrench-icon-blue.png";
 import defaultImg from "../images/temp-pic.jpg";
 
-import cloneterestImage2 from "../images/cloneterest-screenshot-2.PNG";
-import cloneterestImage3 from "../images/cloneterest-screenshot-3.PNG";
+import cloneterestImage2 from "../images/cloneterest-screenshot-2.jpg";
+import cloneterestImage3 from "../images/cloneterest-screenshot-3.jpg";
 
-import adventureArchiveImage3 from "../images/adventure-archive-screenshot-3.PNG";
-import adventureArchiveImage4 from "../images/adventure-archive-screenshot-4.PNG";
-import adventureArchiveImage5 from "../images/adventure-archive-screenshot-5.PNG";
-import adventureArchiveImage6 from "../images/adventure-archive-screenshot-6.PNG";
-import adventureArchiveImage7 from "../images/adventure-archive-screenshot-7.PNG";
-import adventureArchiveImage8 from "../images/adventure-archive-screenshot-8.PNG";
+import adventureArchiveImage3 from "../images/adventure-archive-screenshot-3.jpg";
+import adventureArchiveImage4 from "../images/adventure-archive-screenshot-4.jpg";
+import adventureArchiveImage5 from "../images/adventure-archive-screenshot-5.jpg";
+import adventureArchiveImage6 from "../images/adventure-archive-screenshot-6.jpg";
+import adventureArchiveImage7 from "../images/adventure-archive-screenshot-7.jpg";
+import adventureArchiveImage8 from "../images/adventure-archive-screenshot-8.jpg";
 
-import starRunnerImage2 from "../images/star-runner-screenshot-2.PNG";
-import starRunnerImage3 from "../images/star-runner-screenshot-3.PNG";
-import starRunnerImage4 from "../images/star-runner-screenshot-4.PNG";
-import starRunnerImage5 from "../images/star-runner-screenshot-5.PNG";
-import starRunnerImage6 from "../images/star-runner-screenshot-6.PNG";
+import starRunnerImage2 from "../images/star-runner-screenshot-2.jpg";
+import starRunnerImage3 from "../images/star-runner-screenshot-3.jpg";
+import starRunnerImage4 from "../images/star-runner-screenshot-4.jpg";
+import starRunnerImage5 from "../images/star-runner-screenshot-5.jpg";
+import starRunnerImage6 from "../images/star-runner-screenshot-6.jpg";
 
-import sunsetInvestingImage3 from "../images/sunset-investing-screenshot-3.PNG";
-import sunsetInvestingImage4 from "../images/sunset-investing-screenshot-4.PNG";
-import sunsetInvestingImage5 from "../images/sunset-investing-screenshot-5.PNG";
-import sunsetInvestingImage6 from "../images/sunset-investing-screenshot-6.PNG";
-import sunsetInvestingImage7 from "../images/sunset-investing-screenshot-7.PNG";
-import sunsetInvestingImage8 from "../images/sunset-investing-screenshot-8.PNG";
-import sunsetInvestingImage9 from "../images/sunset-investing-screenshot-9.PNG";
-import sunsetInvestingImage10 from "../images/sunset-investing-screenshot-10.PNG";
-import sunsetInvestingImage11 from "../images/sunset-investing-screenshot-11.PNG";
+import sunsetInvestingImage3 from "../images/sunset-investing-screenshot-3.jpg";
+import sunsetInvestingImage4 from "../images/sunset-investing-screenshot-4.jpg";
+import sunsetInvestingImage5 from "../images/sunset-investing-screenshot-5.jpg";
+import sunsetInvestingImage6 from "../images/sunset-investing-screenshot-6.jpg";
+import sunsetInvestingImage7 from "../images/sunset-investing-screenshot-7.jpg";
+import sunsetInvestingImage8 from "../images/sunset-investing-screenshot-8.jpg";
+import sunsetInvestingImage9 from "../images/sunset-investing-screenshot-9.jpg";
+import sunsetInvestingImage10 from "../images/sunset-investing-screenshot-10.jpg";
+import sunsetInvestingImage11 from "../images/sunset-investing-screenshot-11.jpg";
 
-import Buzz2 from "../images/Buzz2.png";
-import Buzz4 from "../images/Buzz4.png";
-import Buzz7 from "../images/Buzz7.png";
-import Buzz8 from "../images/Buzz8.png";
-import Buzz9 from "../images/Buzz9.png";
+import Buzz2 from "../images/Buzz2.jpg";
+import Buzz4 from "../images/Buzz4.jpg";
+import Buzz7 from "../images/Buzz7.jpg";
+import Buzz8 from "../images/Buzz8.jpg";
+import Buzz9 from "../images/Buzz9.jpg";
 
-import Mars2 from "../images/Mars2.png";
-import Mars10 from "../images/Mars10.png";
-import Mars4 from "../images/Mars4.png";
-import Mars6 from "../images/Mars6.png";
-import Mars9 from "../images/Mars9.png";
+import Mars2 from "../images/Mars2.jpg";
+import Mars10 from "../images/Mars10.jpg";
+import Mars4 from "../images/Mars4.jpg";
+import Mars6 from "../images/Mars6.jpg";
+import Mars9 from "../images/Mars9.jpg";
 
-import AstralNav1 from "../images/astral-nav-screenshot-1.png";
-import AstralNav2 from "../images/astral-nav-screenshot-2.png";
+import AstralNav1 from "../images/astral-nav-screenshot-1.jpg";
+import AstralNav2 from "../images/astral-nav-screenshot-2.jpg";
 
 export default function SoftwareProjects() {
   const softwareData = [
